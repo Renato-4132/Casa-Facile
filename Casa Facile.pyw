@@ -15786,7 +15786,7 @@ class GestioneSpese(tk.Tk):
             risultati_tv.heading(col, text=text_to_show, command=lambda _col=col, t=risultati_tv: _sort_treeview(t, _col, False))
         ttk.Label(frame_lista, text="La Tua Lista Spesa Ottimizzata (Doppio Click su Qtà per Modificare)", font=('Arial', 10, 'bold')
         ).grid(row=2, column=0, sticky='ew', pady=(10, 5))
-        cols_lista_spesa = ("Qtà Catalogo", "Qtà da Comprare", "Pezzo Un. (€)", "Totale (€)", "Supermercato")
+        cols_lista_spesa = ("Qtà Catalogo", "Qtà da Comprare", "Prezzo Un. (€)", "Totale (€)", "Supermercato")
         frame_tv_lista = ttk.Frame(frame_lista, name='frame_tv_lista')
         frame_tv_lista.grid(row=3, column=0, sticky='nsew')
         tv_lista_spesa = ttk.Treeview(frame_tv_lista, columns=cols_lista_spesa, show='tree headings')
@@ -15800,7 +15800,7 @@ class GestioneSpese(tk.Tk):
         heading_map = {
             "Qtà Catalogo": "Qtà Cat.",
             "Qtà da Comprare": "Qtà Ordine",
-            "Pezzo Un. (€)": "Pezzo Un. (€)",
+            "Prezzo Un. (€)": "Prezzo Un. (€)",
             "Totale (€)": "Totale (€)",      
             "Supermercato": "Supermercato"
         }
@@ -15809,7 +15809,7 @@ class GestioneSpese(tk.Tk):
         tv_lista_spesa.column("#0", width=180, anchor='w', stretch=True)
         tv_lista_spesa.column("Qtà Catalogo", width=80, anchor='center', stretch=False)
         tv_lista_spesa.column("Qtà da Comprare", width=120, anchor='center', stretch=False)
-        tv_lista_spesa.column("Pezzo Un. (€)", width=140, anchor='e', stretch=False)
+        tv_lista_spesa.column("Prezzo Un. (€)", width=140, anchor='e', stretch=False)
         tv_lista_spesa.column("Totale (€)", width=100, anchor='e', stretch=False)
         tv_lista_spesa.column("Supermercato", width=120, anchor='center')
 

@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Casa Facile Pro - Guida all'Installazione e all'Uso</title>
-    <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
@@ -82,7 +81,6 @@
 
         <main class="w-full container mx-auto">
 
-            <!-- Sezione Perché è gratuito -->
             <section class="section-card">
                 <h2 class="text-3xl font-bold text-gray-800 mb-4">🎁 Perché è gratuito?</h2>
                 <ul class="list-disc list-inside text-gray-700 space-y-1">
@@ -100,7 +98,6 @@
                 </ul>
             </section>
 
-            <!-- Sezione Requisiti di sistema -->
             <section class="section-card">
                 <h2 class="text-3xl font-bold text-gray-800 mb-4">🖥️ Requisiti di sistema</h2>
                 <ul class="list-disc list-inside text-gray-700 space-y-1 mb-2">
@@ -108,7 +105,7 @@
                     <li><strong>Linux</strong> (tutte le versioni supportate)</li>
                     <li><strong>Mac</strong></li>
                     <li><strong>Python 3.7</strong> o successivo</li>
-                    <li><strong>Librerie necessarie:</strong> python, tkcalendar, win32print, win32api, win32con</li>
+                    <li><strong>Librerie necessarie:</strong> <code>python</code>, <code>tkcalendar</code>, <code>psutil</code>, <code>requests</code>, <code>win32print</code>, <code>win32api</code>, <code>win32con</code>, <code>google-genai</code></li>
                     <li><strong>Stampante consigliata</strong> per la funzione di stampa</li>
                 </ul>
                 <div class="text-gray-700 mt-2">
@@ -117,7 +114,6 @@
                 </div>
             </section>
 
-            <!-- Sezione Installazione e avvio -->
             <section class="section-card">
                 <h2 class="text-3xl font-bold text-gray-800 mb-4">🔧 Installazione e avvio</h2>
                 <ul class="list-disc list-inside text-gray-700 space-y-2 mb-4">
@@ -138,26 +134,26 @@
                     </li>
                     <li>
                         <strong>Su Linux:</strong>
-                        <div class="code-block my-2">sudo apt install tkcalendar python3-psutil</div>
+                        <div class="code-block my-2">sudo apt install tkcalendar python3-requests python3-psutil</div>
                         In alternativa puoi usare i pacchetti python pip:
-                        <div class="code-block my-2">pip install tkcalendar psutil</div>
+                        <div class="code-block my-2">pip install tkcalendar psutil requests google-genai</div>
                     </li>
                     <li>
                         <strong>Su Windows:</strong>
                         Apri il terminale (Prompt dei comandi) e digita:
-                        <div class="code-block my-2">py -m pip install tkcalendar psutil win32print win32api win32con</div>
+                        <div class="code-block my-2">py -m pip install tkcalendar psutil requests win32print win32api win32con google-genai</div>
                     </li>
                 </ul>
                 <h3 class="text-xl font-semibold text-gray-800 mt-6 mb-2">Avvio rapido</h3>
                 <ol class="list-decimal list-inside text-gray-700 space-y-2">
                     <li>
                         <b>Scarica il programma da GitHub:</b>
-                        <a href="https://raw.githubusercontent.com/Renato-4132/Casa-Facile/main/Casa%20Facile.pyw" download class="text-blue-600 underline">
+                        <a href="https://github.com/Renato-4132/Casa-Facile/raw/main/Casa%20Facile.pyw" download class="text-blue-600 underline">
                             Scarica Casa Facile.pyw
                         </a>
                         <br>
                         <span style="font-size:0.95em;color:#555;">
-                          Se il file si apre come testo, clicca col tasto destro sul link e scegli "Salva link con nome..." per scaricarlo.
+                            Se il file si apre come testo, clicca col tasto destro sul link e scegli "Salva link con nome..." per scaricarlo.
                         </span>
                     </li>
                     <li>Crea una cartella sul desktop con un nome a tua scelta.</li>
@@ -166,7 +162,6 @@
                 </ol>
             </section>
 
-            <!-- Sezione Cos'è l'App -->
             <section class="section-card">
                 <h2 class="text-3xl font-bold text-gray-800 mb-4">💡 Cos'è "Casa Facile Pro"?</h2>
                 <p class="text-gray-700 leading-relaxed mb-2">
@@ -180,7 +175,6 @@
                 </ul>
             </section>
 
-            <!-- Sezione Come Funziona -->
             <section class="section-card">
                 <h2 class="text-3xl font-bold text-gray-800 mb-4">⚙️ Come Funziona?</h2>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -211,7 +205,6 @@
                 </div>
             </section>
 
-            <!-- Sezione Come Usarla al Meglio -->
             <section class="section-card">
                 <h2 class="text-3xl font-bold text-gray-800 mb-4">🚀 Come Usarla al Meglio?</h2>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -233,6 +226,16 @@
                             <li><strong>Aggiornamento Facile:</strong> Inserisci il saldo più recente per una visione sempre aggiornata.</li>
                             <li><strong>Previsioni:</strong> Visualizza il saldo stimato per mese, anno e totale.</li>
                         </ul>
+
+                        <h3 class="text-2xl font-semibold text-gray-800 mt-6 mb-3">💧💡🔥 Gestione Utenze</h3>
+                        <p class="text-gray-700 mb-2">
+                            Monitora i consumi di acqua, luce e gas. Inserisci le letture precedenti e attuali per calcolare il consumo e tenere traccia delle tue bollette.
+                        </p>
+                        <ul class="list-disc list-inside text-gray-700 space-y-1 mt-2">
+                            <li><strong>Tracciamento Consumi:</strong> Inserisci le letture mensili per calcolare il consumo.</li>
+                            <li><strong>Anagrafiche:</strong> Salva i dettagli dei fornitori di utenze.</li>
+                            <li><strong>Report:</strong> Visualizza ed esporta i consumi per anno.</li>
+                        </ul>
                     </div>
                     <div>
                         <h3 class="text-2xl font-semibold text-gray-800 mb-3">👥 Rubrica Contatti</h3>
@@ -243,15 +246,25 @@
                             <li><strong>Gestione Completa:</strong> Aggiungi, modifica, cancella e cerca contatti.</li>
                             <li><strong>Esportazione:</strong> Esporta la rubrica in formato testo o JSON.</li>
                         </ul>
-
-                        <h3 class="2xl font-semibold text-gray-800 mt-6 mb-3">💧💡🔥 Gestione Utenze</h3>
+                        
+                        <h3 class="text-2xl font-semibold text-gray-800 mt-6 mb-3">🏦 Gestione Finanziamenti</h3>
                         <p class="text-gray-700 mb-2">
-                            Monitora i consumi di acqua, luce e gas. Inserisci le letture precedenti e attuali per calcolare il consumo e tenere traccia delle tue bollette.
+                            Simula multipli scenari per prestiti e mutui con piani di ammortamento dettagliati.
                         </p>
                         <ul class="list-disc list-inside text-gray-700 space-y-1 mt-2">
-                            <li><strong>Tracciamento Consumi:</strong> Inserisci le letture mensili per calcolare il consumo.</li>
-                            <li><strong>Anagrafiche:</strong> Salva i dettagli dei fornitori di utenze.</li>
-                            <li><strong>Report:</strong> Visualizza ed esporta i consumi per anno.</li>
+                            <li><strong>Simulazioni Scenari:</strong> Inserisci i parametri del prestito (capitale, tasso, durata) per calcolare le rate e l'ammortamento.</li>
+                            <li><strong>Anagrafiche:</strong> Salva i dettagli di mutui/finanziamenti ricorrenti.</li>
+                            <li><strong>Report:</strong> Visualizza ed esporta i piani di ammortamento e i costi totali del debito.</li>
+                        </ul>
+
+                        <h3 class="text-2xl font-semibold text-gray-800 mt-6 mb-3">🛒 Gestione Supermercati</h3>
+                        <p class="text-gray-700 mb-2">
+                            Ottimizza la lista della spesa confrontando i prezzi dei cataloghi e gestendo l'inventario.
+                        </p>
+                        <ul class="list-disc list-inside text-gray-700 space-y-1 mt-2">
+                            <li><strong>Confronto Prezzi:</strong> Esegue il confronto in tempo reale tra tutti i cataloghi, mostrando il prezzo minimo disponibile e il relativo supermercato per ogni articolo.</li>
+                            <li><strong>Costruzione Ottimizzata:</strong> La lista finale suggerisce automaticamente il supermercato più economico per ogni acquisto.</li>
+                            <li><strong>Gestione Quantità:</strong> Doppio click sulla riga per incrementare la quantità da comprare.</li>
                         </ul>
                     </div>
                 </div>
@@ -264,7 +277,6 @@
                 </ul>
             </section>
 
-            <!-- Pulsante per tornare alla pagina principale -->
             <div class="text-center mt-12">
                 <a href="https://github.com/Renato-4132/Casa-Facile" class="btn-back">
                     ← Torna alla Pagina Principale
@@ -278,14 +290,3 @@
     </div>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-

@@ -3,8 +3,7 @@
 
 https://renato-4132.github.io/Casa-Facile/
 
-![main 1](https://github.com/user-attachments/assets/41fc7803-7ec7-4742-bac0-3b2c8fb91ca2)
-
+![Schermata del 2025-11-13 17-09-01](https://github.com/user-attachments/assets/d268902f-43c1-4e37-939e-475a8c91321e)
 
 helpcasafacilepro@gmail.com
 
@@ -37,7 +36,7 @@ _"Casa Facile Pro" è un'applicazione desktop sviluppata in Python con Tkinter, 
 - **Linux** (tutte le versioni supportate)
 - **Mac**
 - **Python 3.7** o successivo
-- **Librerie necessarie:** `python`, `tkcalendar`, `psutil`, `win32print`, `win32api`, `win32con`
+- **Librerie necessarie:** `python`, `tkcalendar`, `psutil`, `win32print`, `win32api`, `win32con`, `google-genai`
 - **Stampante consigliata** per la funzione di stampa
 
 > Per utilizzare correttamente l’applicazione, è richiesta una risoluzione minima dello schermo di **1280×800 pixel**.  
@@ -65,17 +64,18 @@ _"Casa Facile Pro" è un'applicazione desktop sviluppata in Python con Tkinter, 
 
 - **Su Linux:**
   ```bash
-  sudo apt install tkcalendar 
+  sudo apt install tkcalendar python3-requests
+  pip install google-genai
   ```
   In alternativa puoi usare i pacchetti python pip:
   ```bash
-  pip install tkcalendar 
+  pip install tkcalendar requests google-genai
   ```
 
 - **Su Windows:**  
   Apri il terminale (Prompt dei comandi) e digita:
   ```bash
-  py -m pip install tkcalendar win32print win32api win32con
+  py -m pip install tkcalendar requests win32print win32api win32con google-genai
   ```
 
 1. **Scarica il programma da GitHub:**  
@@ -158,6 +158,26 @@ Inserisci le letture precedenti e attuali per calcolare il consumo e tenere trac
 - **Tracciamento Consumi:** Inserisci le letture mensili per calcolare il consumo.
 - **Anagrafiche:** Salva i dettagli dei fornitori di utenze.
 - **Report:** Visualizza ed esporta i consumi per anno.
+
+### 💧💡🔥 Gestione Finanziamenti
+
+Simula multipli scenari finanziamenti/mutui 
+
+- **Simulazioni Scenari:** Inserisci i parametri del prestito (capitale, tasso, durata)
+-  per calcolare le rate e l'ammortamento.
+- **Anagrafiche:** Salva i dettagli di mutui/finanziamenti ricorrenti.
+- **Report:** Visualizza ed esporta i piani di ammortamento e i costi totali del debito.
+
+### 💧💡🔥 Gestione Supermercati
+
+💰 Ottimizzazione Lista Spesa
+
+- **Confronto Prezzi:** Esegue il confronto in tempo reale tra tutti i cataloghi, mostrando
+-  il prezzo minimo disponibile e il relativo supermercato per ogni articolo.
+- **Costruzione Ottimizzata:** Aggiungi articoli tramite doppio click; la lista finale
+-  (tabella inferiore) suggerisce automaticamente il supermercato più economico per ogni acquisto.
+- **Gestione Quantità:** Un doppio click su un articolo esistente ne incrementa la quantità;
+-  il doppio click sulla cella permette la modifica manuale della quantità da comprare.
 
 ### 🔄 Backup, Import/Export e Stampa
 

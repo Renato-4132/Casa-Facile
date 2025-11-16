@@ -35,8 +35,8 @@ _"Casa Facile Pro" è un'applicazione desktop sviluppata in Python con Tkinter, 
 - **Windows 10** o superiore
 - **Linux** (tutte le versioni supportate)
 - **Mac**
-- **Python 3.7** o successivo
-- **Librerie necessarie:** `python`, `tkcalendar`, `psutil`, `win32print`, `win32api`, `win32con`, `google-genai`
+- **Python 3.13** o successivo
+- **Librerie necessarie:** tkcalendar, fcntl, ctypes, google-genai, requests, win32print, win32api, win32con
 - **Stampante consigliata** per la funzione di stampa
 
 ## 3. Installazione e avvio
@@ -46,9 +46,9 @@ _"Casa Facile Pro" è un'applicazione desktop sviluppata in Python con Tkinter, 
   [https://www.python.org/downloads/](https://www.python.org/downloads/)
 
 - **Installazione Python su Windows:**
-- Puoi usare l'installer AUTOMATICO .Zip
+- Puoi usare l'installer AUTOMATICO .Zip (CONSIGLIATO)
 - oppure Manualmente:
-- Scaricare l’ultima versione di Python 3 (**assicurati che sia Python 3.8 o superiore**).  
+- Scaricare l’ultima versione di Python 3 (**assicurati che sia Python 3.13 o superiore**).  
   Scegli l’installer appropriato per il tuo sistema (es. "Windows installer (64-bit)").  
   Esegui il file `.exe` scaricato.  
   **MOLTO IMPORTANTE:** Nella prima schermata dell’installazione, assicurati di spuntare la casella **"Add Python X.X to PATH"** (dove X.X è la versione di Python).  
@@ -59,18 +59,13 @@ _"Casa Facile Pro" è un'applicazione desktop sviluppata in Python con Tkinter, 
 
 - **Su Linux:**
   ```bash
-  sudo apt install tkcalendar python3-requests
-  pip install google-genai
-  ```
-  In alternativa puoi usare i pacchetti python pip:
-  ```bash
-  pip install tkcalendar requests google-genai
+  pip install tkcalendar, fcntl, ctypes, google-genai, requests, win32print, win32api, win32con
   ```
 
 - **Su Windows:**  
   Apri il terminale (Prompt dei comandi) e digita:
   ```bash
-  py -m pip install tkcalendar requests win32print win32api win32con google-genai
+  py -m pip install tkcalendar, fcntl, ctypes, google-genai, requests, win32print, win32api, win32con
   ```
 
 1. **Scarica il programma da GitHub:**  

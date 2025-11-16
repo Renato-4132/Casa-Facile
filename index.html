@@ -104,8 +104,8 @@
                     <li><strong>Windows 10</strong> o superiore</li>
                     <li><strong>Linux</strong> (tutte le versioni supportate)</li>
                     <li><strong>Mac</strong></li>
-                    <li><strong>Python 3.7</strong> o successivo</li>
-                    <li><strong>Librerie necessarie:</strong> <code>python</code>, <code>tkcalendar</code>, <code>psutil</code>, <code>requests</code>, <code>win32print</code>, <code>win32api</code>, <code>win32con</code>, <code>google-genai</code></li>
+                    <li><strong>Python 3.13</strong> o successivo</li>
+                    <li><strong>Librerie necessarie:</strong> <code>python</code>, <code>tkcalendar</code>, <code>fcntl</code>, <code>requests</code>, <code>win32print</code>, <code>win32api</code>, <code>win32con</code>, <code>google-genai</code></li>
                     <li><strong>Stampante consigliata</strong> per la funzione di stampa</li>
                 </ul>
              </section>
@@ -114,13 +114,13 @@
                 <h2 class="text-3xl font-bold text-gray-800 mb-4">🔧 Installazione e avvio</h2>
                 <ul class="list-disc list-inside text-gray-700 space-y-2 mb-4">
                     <li>
-                        <strong>Per Windows Usare l'installer Automatico.zip </strong> Oppure Manualmente Seguire i seguenti Passaggi:<br>
+                        <strong>Per Windows Usare l'installer Automatico.zip (CONSIGLIATO)</strong> Oppure Manualmente Seguire i seguenti Passaggi:<br>
                         <strong>Questo programma si basa su Python.</strong> Puoi scaricare Python dal sito ufficiale:<br>
                         <a href="https://www.python.org/downloads/" class="info-link" target="_blank">https://www.python.org/downloads/</a>
                     </li>
                     <li>
                         <strong>Installazione Python su Windows:</strong><br>
-                        Scarica l'ultima versione di Python 3 (<span class="font-semibold">assicurati che sia Python 3.8 o superiore</span>). Scegli l'installer appropriato per il tuo sistema (es. "Windows installer (64-bit)").<br>
+                        Scarica l'ultima versione di Python 3 (<span class="font-semibold">assicurati che sia Python 3.13 o superiore</span>). Scegli l'installer appropriato per il tuo sistema (es. "Windows installer (64-bit)").<br>
                         Esegui il file <code>.exe</code> scaricato.<br>
                         <span class="font-bold text-red-600">MOLTO IMPORTANTE:</span> Nella prima schermata dell'installazione, assicurati di spuntare la casella <span class="font-bold text-blue-700">"Add Python X.X to PATH"</span> (dove X.X è la versione di Python).<br>
                         Clicca su "Install Now" e segui le istruzioni.
@@ -130,9 +130,8 @@
                     </li>
                     <li>
                         <strong>Su Linux:</strong>
-                        <div class="code-block my-2">sudo apt install tkcalendar python3-requests python3-psutil & pip install google-genai</div>
-                        In alternativa puoi usare i pacchetti python pip:
-                        <div class="code-block my-2">pip install tkcalendar psutil requests google-genai</div>
+                        Apri il terminale (Prompt dei comandi) e digita:
+                        <div class="code-block my-2">pip install tkcalendar, fcntl, ctypes, google-genai, requests, win32print, win32api, win32con</div>
                     </li>
                     <li>
                         <strong>Su Windows:</strong>

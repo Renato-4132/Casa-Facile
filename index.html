@@ -97,6 +97,8 @@
                     <li>🌱 Cresce nel tempo — grazie a contributi liberi.</li>
                 </ul>
             </section>
+            
+            <hr>
 
             <section class="section-card">
                 <h2 class="text-3xl font-bold text-gray-800 mb-4">🖥️ Requisiti di sistema</h2>
@@ -105,41 +107,22 @@
                     <li><strong>Linux</strong> (tutte le versioni supportate)</li>
                     <li><strong>Mac</strong></li>
                     <li><strong>Python 3.13</strong> o successivo</li>
-                    <li><strong>Librerie necessarie:</strong> <code>tkcalendar</code>, <code>fcntl</code>, <code>requests</code>, <code>win32print</code>, <code>win32api</code>, <code>win32con</code>, <code>google-genai</code></li>
+                    <li><strong>Librerie necessarie:</strong> <code>tkcalendar</code>, <code>google-genai</code>, <code>requests</code>, <code>segno</code>. Per Windows è richiesto anche <code>pypiwin32</code> per la stampa.</li>
                     <li><strong>Stampante consigliata</strong> per la funzione di stampa</li>
                 </ul>
              </section>
 
+             <hr>
+
             <section class="section-card">
                 <h2 class="text-3xl font-bold text-gray-800 mb-4">🔧 Installazione e avvio</h2>
-                <ul class="list-disc list-inside text-gray-700 space-y-2 mb-4">
-                    <li>
-                        <strong>Per Windows Usare l'installer Automatico.zip (CONSIGLIATO)</strong> Oppure Manualmente Seguire i seguenti Passaggi:<br>
-                        <strong>Questo programma si basa su Python.</strong> Puoi scaricare Python dal sito ufficiale:<br>
-                        <a href="https://www.python.org/downloads/" class="info-link" target="_blank">https://www.python.org/downloads/</a>
-                    </li>
-                    <li>
-                        <strong>Installazione Python su Windows:</strong><br>
-                        Scarica l'ultima versione di Python 3 (<span class="font-semibold">assicurati che sia Python 3.13 o superiore</span>). Scegli l'installer appropriato per il tuo sistema (es. "Windows installer (64-bit)").<br>
-                        Esegui il file <code>.exe</code> scaricato.<br>
-                        <span class="font-bold text-red-600">MOLTO IMPORTANTE:</span> Nella prima schermata dell'installazione, assicurati di spuntare la casella <span class="font-bold text-blue-700">"Add Python X.X to PATH"</span> (dove X.X è la versione di Python).<br>
-                        Clicca su "Install Now" e segui le istruzioni.
-                    </li>
-                    <li>
-                        <strong>I plugin pip python sono autoinstallanti, ma per buona promemoria, allego come installarli manualmente.</strong>
-                    </li>
-                    <li>
-                        <strong>Su Linux:</strong>
-                        Apri il terminale (Prompt dei comandi) e digita:
-                        <div class="code-block my-2">pip install tkcalendar, fcntl, ctypes, google-genai, requests, win32print, win32api, win32con</div>
-                    </li>
-                    <li>
-                        <strong>Su Windows:</strong>
-                        Apri il terminale (Prompt dei comandi) e digita:
-                        <div class="code-block my-2">py -m pip install tkcalendar, fcntl, ctypes, google-genai, requests, win32print, win32api, win32con</div>
-                    </li>
-                </ul>
-                <h3 class="text-xl font-semibold text-gray-800 mt-6 mb-2">Avvio rapido</h3>
+                <h3 class="text-xl font-semibold text-gray-800 mt-6 mb-2">WINDOWS:</h3>
+                <p class="text-gray-700 space-y-2 mb-4">
+                    Puoi usare l'installer WINDOWS TUTTO AUTOMATICO .Zip (CONSIGLIATO)<br>
+                    <a href="https://github.com/Renato-4132/Casa-Facile/blob/main/C.F.Win.installer.zip" target="_blank" class="info-link">https://github.com/Renato-4132/Casa-Facile/blob/main/C.F.Win.installer.zip</a>
+                </p>
+
+                <h3 class="text-xl font-semibold text-gray-800 mt-6 mb-2">LINUX/MAC:</h3>
                 <ol class="list-decimal list-inside text-gray-700 space-y-2">
                     <li>
                         <b>Scarica il programma da GitHub:</b>
@@ -148,145 +131,20 @@
                         </a>
                         <br>
                         <span style="font-size:0.95em;color:#555;">
-                            Se il file si apre come testo, clicca col tasto destro sul link e scegli "Salva link con nome..." per scaricarlo.
+                            (Se cliccando il link il file viene aperto come testo nel browser, fai clic destro sul link e scegli "Salva link con nome..." per scaricarlo.)
                         </span>
                     </li>
                     <li>Crea una cartella sul desktop con un nome a tua scelta.</li>
                     <li>Copia il file all’interno della cartella e avvia <strong>Casa Facile.pyw</strong> (con doppio click o da terminale).</li>
                     <li>Alla prima esecuzione, verranno creati i database e installate le dipendenze.</li>
                 </ol>
-            </section>
 
-            <section class="section-card">
-                <h2 class="text-3xl font-bold text-gray-800 mb-4">💡 Cos'è "Casa Facile Pro"?</h2>
-                <p class="text-gray-700 leading-relaxed mb-2">
-                    "Casa Facile Pro" è la tua piattaforma personale per una gestione finanziaria domestica senza stress. Con un'interfaccia intuitiva e funzionalità robuste, ti permette di avere sempre sotto controllo le tue finanze. Dimentica i fogli di calcolo complessi e le note sparse: qui hai tutto ciò che ti serve in un unico posto.
-                </p>
-                <ul class="list-disc list-inside text-gray-700 space-y-1 mt-2">
-                    <li><strong>Controllo Totale:</strong> Registra ogni spesa ed entrata con facilità.</li>
-                    <li><strong>Organizzazione:</strong> Categorizza le transazioni per una visione chiara di dove vanno i tuoi soldi.</li>
-                    <li><strong>Pianificazione:</strong> Gestisci le ricorrenze per le spese fisse (affitto, bollette, abbonamenti).</li>
-                    <li><strong>Analisi:</strong> Ottieni statistiche dettagliate per capire meglio le tue abitudini di spesa.</li>
-                </ul>
-            </section>
-
-            <section class="section-card">
-                <h2 class="text-3xl font-bold text-gray-800 mb-4">⚙️ Come Funziona?</h2>
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                    <div>
-                        <h3 class="text-2xl font-semibold text-gray-800 mb-3">📅 Calendario e Riepilogo</h3>
-                        <p class="text-gray-700 mb-2">
-                            Il calendario ti offre una visione immediata delle tue giornate finanziarie, con colori che indicano entrate (verde), uscite (rosso) o entrambi (giallo).
-                            Sotto il calendario, trovi un riepilogo annuale e mensile delle tue finanze.
-                        </p>
-                        <ul class="list-disc list-inside text-gray-700 space-y-1 mt-2">
-                            <li><strong>Navigazione Facile:</strong> Seleziona un giorno per vedere le transazioni specifiche.</li>
-                            <li><strong>Colorazione Intuitiva:</strong> Riconosci a colpo d'occhio i giorni con attività finanziarie.</li>
-                            <li><strong>Riepiloghi Rapidi:</strong> Controlla entrate, uscite e differenze per mese e anno.</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h3 class="text-2xl font-semibold text-gray-800 mb-3">📊 Statistiche e Inserimento</h3>
-                        <p class="text-gray-700 mb-2">
-                            Sul lato destro dell'interfaccia principale, trovi la sezione per l'inserimento di nuove spese/entrate e le statistiche dettagliate.
-                        </p>
-                        <ul class="list-disc list-inside text-gray-700 space-y-1 mt-2">
-                            <li><strong>Inserimento Semplice:</strong> Aggiungi transazioni con data, categoria, descrizione, importo e tipo (entrata/uscita).</li>
-                            <li><strong>Modifica e Cancella:</strong> Gestisci le voci esistenti con facilità.</li>
-                            <li><strong>Ricorrenze:</strong> Imposta spese o entrate che si ripetono giornalmente, mensilmente o annualmente.</li>
-                            <li><strong>Visualizzazione Statistiche:</strong> Scegli tra statistiche giornaliere, mensili, annuali o totali per categoria.</li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-
-            <section class="section-card">
-                <h2 class="text-3xl font-bold text-gray-800 mb-4">🚀 Come Usarla al Meglio?</h2>
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                    <div>
-                        <h3 class="text-2xl font-semibold text-gray-800 mb-3">🏷️ Gestione Categorie</h3>
-                        <p class="text-gray-700 mb-2">
-                            Crea e personalizza le tue categorie di spesa e entrata. Questo ti aiuterà a organizzare meglio le tue finanze e a ottenere statistiche più precise.
-                        </p>
-                        <ul class="list-disc list-inside text-gray-700 space-y-1 mt-2">
-                            <li><strong>Aggiungi Nuove Categorie:</strong> Personalizza l'app in base alle tue esigenze.</li>
-                            <li><strong>Modifica e Cancella:</strong> Mantieni le tue categorie sempre aggiornate.</li>
-                        </ul>
-
-                        <h3 class="text-2xl font-semibold text-gray-800 mt-6 mb-3">💰 Saldo Conto Corrente</h3>
-                        <p class="text-gray-700 mb-2">
-                            Tieni traccia del saldo del tuo conto corrente. Inserisci l'ultimo saldo e la data, e l'app calcolerà il saldo aggiornato in base alle tue transazioni.
-                        </p>
-                        <ul class="list-disc list-inside text-gray-700 space-y-1 mt-2">
-                            <li><strong>Aggiornamento Facile:</strong> Inserisci il saldo più recente per una visione sempre aggiornata.</li>
-                            <li><strong>Previsioni:</strong> Visualizza il saldo stimato per mese, anno e totale.</li>
-                        </ul>
-
-                        <h3 class="text-2xl font-semibold text-gray-800 mt-6 mb-3">💧💡🔥 Gestione Utenze</h3>
-                        <p class="text-gray-700 mb-2">
-                            Monitora i consumi di acqua, luce e gas. Inserisci le letture precedenti e attuali per calcolare il consumo e tenere traccia delle tue bollette.
-                        </p>
-                        <ul class="list-disc list-inside text-gray-700 space-y-1 mt-2">
-                            <li><strong>Tracciamento Consumi:</strong> Inserisci le letture mensili per calcolare il consumo.</li>
-                            <li><strong>Anagrafiche:</strong> Salva i dettagli dei fornitori di utenze.</li>
-                            <li><strong>Report:</strong> Visualizza ed esporta i consumi per anno.</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h3 class="text-2xl font-semibold text-gray-800 mb-3">👥 Rubrica Contatti</h3>
-                        <p class="text-gray-700 mb-2">
-                            Una rubrica integrata per gestire i tuoi contatti personali, con campi per nome, telefono, email e note.
-                        </p>
-                        <ul class="list-disc list-inside text-gray-700 space-y-1 mt-2">
-                            <li><strong>Gestione Completa:</strong> Aggiungi, modifica, cancella e cerca contatti.</li>
-                            <li><strong>Esportazione:</strong> Esporta la rubrica in formato testo o JSON.</li>
-                        </ul>
-                        
-                        <h3 class="text-2xl font-semibold text-gray-800 mt-6 mb-3">🏦 Gestione Finanziamenti</h3>
-                        <p class="text-gray-700 mb-2">
-                            Simula multipli scenari per prestiti e mutui con piani di ammortamento dettagliati.
-                        </p>
-                        <ul class="list-disc list-inside text-gray-700 space-y-1 mt-2">
-                            <li><strong>Simulazioni Scenari:</strong> Inserisci i parametri del prestito (capitale, tasso, durata) per calcolare le rate e l'ammortamento.</li>
-                            <li><strong>Anagrafiche:</strong> Salva i dettagli di mutui/finanziamenti ricorrenti.</li>
-                            <li><strong>Report:</strong> Visualizza ed esporta i piani di ammortamento e i costi totali del debito.</li>
-                        </ul>
-
-                        <h3 class="text-2xl font-semibold text-gray-800 mt-6 mb-3">🛒 Gestione Supermercati</h3>
-                        <p class="text-gray-700 mb-2">
-                            Ottimizza la lista della spesa confrontando i prezzi dei cataloghi e gestendo l'inventario.
-                        </p>
-                        <ul class="list-disc list-inside text-gray-700 space-y-1 mt-2">
-                            <li><strong>Confronto Prezzi:</strong> Esegue il confronto in tempo reale tra tutti i cataloghi, mostrando il prezzo minimo disponibile e il relativo supermercato per ogni articolo.</li>
-                            <li><strong>Costruzione Ottimizzata:</strong> La lista finale suggerisce automaticamente il supermercato più economico per ogni acquisto.</li>
-                            <li><strong>Gestione Quantità:</strong> Doppio click sulla riga per incrementare la quantità da comprare.</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <h3 class="text-2xl font-semibold text-gray-800 mt-8 mb-3">🔄 Backup, Import/Export e Stampa</h3>
-                <ul class="list-disc list-inside text-gray-700 space-y-1 mt-2">
-                    <li><strong>Backup Incrementale:</strong> I tuoi dati sono al sicuro con backup automatici.</li>
-                    <li><strong>Importa/Esporta Database:</strong> Sposta i tuoi dati tra diverse installazioni o per archiviarli.</li>
-                    <li><strong>Stampa Report:</strong> Genera report dettagliati delle tue finanze in formato stampabile.</li>
-                </ul>
-            </section>
-
-            <div class="text-center mt-12">
-                <a href="https://github.com/Renato-4132/Casa-Facile" class="btn-back">
-                    ← Torna alla Pagina Principale
-                </a>
-            </div>
-        </main>
-
-        <footer class="mt-12 text-center text-gray-500 text-sm">
-            <p>&copy; 2025 Casa Facile Pro. Tutti i diritti riservati.</p>
-        </footer>
-    </div>
-</body>
-</html>
-
-
-
-
-
+                <h3 class="text-xl font-semibold text-gray-800 mt-6 mb-2">Oppure Installazione Manuale:</h3>
+                <ul class="list-disc list-inside text-gray-700 space-y-2 mb-4">
+                    <li>
+                        <strong>Questo programma si basa su Python.</strong> Puoi scaricare Python dal sito ufficiale:<br>
+                        <a href="https://www.python.org/downloads/" class="info-link" target="_blank">https://www.python.org/downloads/</a>
+                    </li>
+                    <li>
+                        <strong>Installazione Python su Windows:</strong><br>
+                        Scarica l’ultima versione di Python 3 (<span class="font-semibold">assicur

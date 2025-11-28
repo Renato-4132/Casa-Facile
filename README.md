@@ -71,13 +71,13 @@ Oppure Installazione Manuale:
 
 - **Su Linux:**
   ```bash
-  pip install tkcalendar, fcntl, ctypes, google-genai, requests, win32print, win32api, win32con
+  pip install tkcalendar, fcntl, ctypes, google-genai, requests, win32print, win32api, win32con, segno
   ```
 
 - **Su Windows:**  
   Apri il terminale (Prompt dei comandi) e digita:
   ```bash
-  py -m pip install tkcalendar, fcntl, ctypes, google-genai, requests, win32print, win32api, win32con
+  py -m pip install tkcalendar, fcntl, ctypes, google-genai, requests, win32print, win32api, win32con, segno
   
   ```
  **Scarica il programma da GitHub:**  

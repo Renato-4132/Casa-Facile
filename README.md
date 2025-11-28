@@ -41,13 +41,14 @@ _"Casa Facile Pro" è un'applicazione desktop sviluppata in Python con Tkinter, 
 
 ## 3. Installazione e avvio
 
+- **Puoi usare l'installer WINDOWS TUTTO AUTOMATICO .Zip (CONSIGLIATO)**
+
+- oppure Manualmente:
 - **Questo programma si basa su Python.**  
   Puoi scaricare Python dal sito ufficiale:  
   [https://www.python.org/downloads/](https://www.python.org/downloads/)
 
 - **Installazione Python su Windows:**
-- Puoi usare l'installer AUTOMATICO .Zip (CONSIGLIATO)
-- oppure Manualmente:
 - Scaricare l’ultima versione di Python 3 (**assicurati che sia Python 3.13 o superiore**).  
   Scegli l’installer appropriato per il tuo sistema (es. "Windows installer (64-bit)").  
   Esegui il file `.exe` scaricato.  

@@ -3,7 +3,7 @@
 
 https://renato-4132.github.io/Casa-Facile/
 
-![Schermata del 2025-11-13 17-09-01](https://github.com/user-attachments/assets/d268902f-43c1-4e37-939e-475a8c91321e)
+![main](https://github.com/user-attachments/assets/fde8eb8f-a966-4e56-a613-92e2a42eeda1)
 
 helpcasafacilepro@gmail.com
 
@@ -41,9 +41,20 @@ _"Casa Facile Pro" è un'applicazione desktop sviluppata in Python con Tkinter, 
 
 ## 3. Installazione e avvio
 
+WINDOWS:
 - **Puoi usare l'installer WINDOWS TUTTO AUTOMATICO .Zip (CONSIGLIATO)**
+   https://github.com/Renato-4132/Casa-Facile/blob/main/C.F.Win.installer.zip
+  
+LINUX/MAC:
+1. **Scarica il programma da GitHub:**  
+   [Scarica Casa Facile.pyw](https://github.com/Renato-4132/Casa-Facile/raw/main/Casa%20Facile.pyw)  
+   *(Se cliccando il link il file viene aperto come testo nel browser, fai clic destro sul link e scegli "Salva PAGINA con nome..." per scaricarlo.)*
+2. **Crea una cartella sul desktop** con un nome a tua scelta.
+3. **Copia il file** all’interno della cartella e avvia `Casa Facile.pyw`
+   (con doppio click o da terminale).
+4. **Alla prima esecuzione,** verranno creati i database e installate le dipendenze.
 
-- oppure Manualmente:
+Oppure Installazione Manuale:
 - **Questo programma si basa su Python.**  
   Puoi scaricare Python dal sito ufficiale:  
   [https://www.python.org/downloads/](https://www.python.org/downloads/)
@@ -67,15 +78,15 @@ _"Casa Facile Pro" è un'applicazione desktop sviluppata in Python con Tkinter, 
   Apri il terminale (Prompt dei comandi) e digita:
   ```bash
   py -m pip install tkcalendar, fcntl, ctypes, google-genai, requests, win32print, win32api, win32con
+  
   ```
-
-1. **Scarica il programma da GitHub:**  
+ **Scarica il programma da GitHub:**  
    [Scarica Casa Facile.pyw](https://github.com/Renato-4132/Casa-Facile/raw/main/Casa%20Facile.pyw)  
    *(Se cliccando il link il file viene aperto come testo nel browser, fai clic destro sul link e scegli "Salva PAGINA con nome..." per scaricarlo.)*
-2. **Crea una cartella sul desktop** con un nome a tua scelta.
-3. **Copia il file** all’interno della cartella e avvia `Casa Facile.pyw`
+ **Crea una cartella sul desktop** con un nome a tua scelta.
+ **Copia il file** all’interno della cartella e avvia `Casa Facile.pyw`
    (con doppio click o da terminale).
-4. **Alla prima esecuzione,** verranno creati i database e installate le dipendenze.
+ **Alla prima esecuzione,** verranno creati i database e installate le dipendenze.
 
 
 ## 💡 Cos'è "Casa Facile Pro"?

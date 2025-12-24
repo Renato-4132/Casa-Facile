@@ -3,7 +3,7 @@
 
 https://renato-4132.github.io/Casa-Facile/
 
-![main 2](https://github.com/user-attachments/assets/f7dd0af9-74d5-41b6-be37-0861d1990f03)
+![main 3](https://github.com/user-attachments/assets/11bc4209-6c52-4eae-8c17-8f576e1b2393)
 
 helpcasafacilepro@gmail.com
 

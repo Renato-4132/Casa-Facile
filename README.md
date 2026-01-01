@@ -13,7 +13,7 @@ Benvenuti nel software professionale per la gestione della contabilità domestic
 ![main1](https://github.com/user-attachments/assets/d0423920-6b78-49aa-b8d7-718985454e39)
 ![main6](https://github.com/user-attachments/assets/5ed8aaf9-189d-4290-969b-43ff09b6da6f)
 
-helpcasafacilepro@gmail.com
+Supporto Tecnico: helpcasafacilepro@gmail.com
 
 # 🏡 Casa Facile Pro
 

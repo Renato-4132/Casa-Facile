@@ -3,340 +3,216 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Casa Facile Pro - Guida all'Installazione e all'Uso</title>
+    <title>Casa Facile Pro 2026 - Guida Ufficiale</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
-        body {
-            font-family: 'Inter', sans-serif;
-            background-color: #f0f2f5;
-            color: #333;
-        }
-        .container { max-width: 1024px; }
-        .section-card {
-            background-color: white;
-            border-radius: 1rem;
-            padding: 2rem;
-            box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -2px rgba(0,0,0,0.05);
-            margin-bottom: 2rem;
-        }
-        .code-block {
-            background-color: #2d2d2d;
-            color: #f8f8f2;
-            padding: 1rem;
-            border-radius: 0.5rem;
-            overflow-x: auto;
-            font-family: 'Menlo', 'Monaco', 'Consolas', 'Liberation Mono', 'Courier New', monospace;
-            font-size: 0.9rem;
-        }
-        .btn-back {
-            background-color: #4f46e5;
-            color: white;
-            padding: 10px 24px;
-            border-radius: 9999px;
-            font-weight: 600;
-            transition: all 0.3s ease;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-            display: inline-block;
-        }
-        .btn-back:hover {
-            background-color: #3730a3;
-            transform: translateY(-2px);
-            box-shadow: 0 6px 8px rgba(0,0,0,0.15);
-        }
-        .btn-demo {
-            background-color: #ef4444;
-            color: white;
-            padding: 10px 24px;
-            border-radius: 9999px;
-            font-weight: 600;
-            transition: all 0.3s ease;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-            display: inline-block;
-        }
-        .btn-demo:hover {
-            background-color: #dc2626;
-            transform: translateY(-2px);
-            box-shadow: 0 6px 8px rgba(0,0,0,0.15);
-        }
-        .badge-row img {
-            margin-right: 8px;
-            margin-bottom: 6px;
-        }
-        .img-shadow {
-            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-            border-radius: 1rem;
-            max-width: 100%;
-        }
-        .info-link {
-            color: #2563eb;
-            text-decoration: underline;
-            word-break: break-all;
-        }
+        :root { --accent: #4f46e5; --bg: #0f172a; --card: #1e293b; }
+        body { background-color: var(--bg); color: #e2e8f0; font-family: 'Inter', sans-serif; }
+        .hero-gradient { background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%); border-bottom: 1px solid #334155; }
+        .feature-card { background: var(--card); transition: all 0.3s ease; border: 1px solid #334155; }
+        .feature-card:hover { transform: translateY(-5px); border-color: var(--accent); }
+        .step-number { background: var(--accent); width: 28px; height: 28px; display: flex; align-items: center; justify-content: center; border-radius: 50%; font-weight: bold; font-size: 0.9rem; }
+        .code-box { background: #000; border-left: 4px solid var(--accent); padding: 1rem; font-family: monospace; color: #10b981; }
+        .warning-box { background: rgba(245, 158, 11, 0.1); border: 1px solid #f59e0b; padding: 1rem; border-radius: 0.75rem; }
+        .video-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 1rem; border: 2px solid #334155; }
+        .video-container video { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+        .btn-download { background: var(--accent); color: white; padding: 10px 20px; border-radius: 8px; display: inline-flex; align-items: center; font-weight: bold; margin-top: 10px; transition: opacity 0.2s; }
+        .btn-download:hover { opacity: 0.9; }
     </style>
 </head>
 <body class="antialiased">
-    <div class="min-h-screen flex flex-col items-center py-12 px-4 sm:px-6 lg:px-8">
-        <header class="text-center mb-8">
-            <div class="badge-row flex flex-wrap justify-center mb-4">
-                <img src="https://img.shields.io/badge/language-Python-F7DF1E?logo=python&logoColor=black" alt="Python" />
-                <img src="https://img.shields.io/github/repo-size/Renato-4132/Casa-Facile" alt="Repo Size" />
-                <img src="https://img.shields.io/badge/Windows-✔️-blue?logo=windows" alt="Windows Support" />
-                <img src="https://img.shields.io/badge/macOS-✔️-lightgrey?logo=apple" alt="macOS Support" />
-                <img src="https://img.shields.io/badge/Linux-✔️-yellow?logo=linux" alt="Linux Support" />
-            </div>
-            <a href="https://renato-4132.github.io/Casa-Facile/" target="_blank" class="info-link block mb-2">https://renato-4132.github.io/Casa-Facile/</a>
+
+    <header class="hero-gradient py-12 px-4 text-center">
+        <h1 class="text-5xl font-black text-white mb-2 tracking-tight">CASA FACILE <span class="text-indigo-500">PRO</span></h1>
+        <p class="text-lg text-slate-400 mb-6">Guida Integrale all'Installazione e Funzionalità Avanzate</p>
+        <img src="https://github.com/user-attachments/assets/d0423920-6b78-49aa-b8d7-718985454e39" alt="Anteprima Software" class="max-w-3xl mx-auto rounded-xl shadow-2xl border-4 border-slate-700">
+    </header>
+
+    <main class="max-w-6xl mx-auto px-4 py-12">
+
+        <section class="grid md:grid-cols-2 gap-10 mb-20">
             
-            <img src="https://github.com/user-attachments/assets/d0423920-6b78-49aa-b8d7-718985454e39" alt="Schermata Casa Facile Pro" class="img-shadow mb-4 mx-auto" style="max-width:600px;">
-            
-            <div class="mt-2 mb-2 font-semibold text-lg text-indigo-800">Contatto: <a href="mailto:helpcasafacilepro@gmail.com" class="info-link">helpcasafacilepro@gmail.com</a></div>
-            <h1 class="text-5xl font-extrabold text-gray-900 mb-4">🏡 Casa Facile Pro</h1>
-            <p class="mt-2 text-2xl font-bold text-gray-700">La tua soluzione completa per la gestione delle finanze domestiche!</p>
-            <p class="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">
-                "Casa Facile Pro" è un'applicazione desktop sviluppata in Python con Tkinter, progettata per aiutarti a tenere traccia delle tue spese e entrate, gestire le categorie, monitorare le utenze e molto altro, in modo semplice e intuitivo.
-            </p>
-        </header>
-
-        <main class="w-full container mx-auto">
-
-            <section class="section-card">
-                <h2 class="text-3xl font-bold text-gray-800 mb-4">🎁 Perché è gratuito?</h2>
-                <ul class="list-disc list-inside text-gray-700 space-y-1">
-                    <li>✅ Il codice è aperto: chiunque può usarlo.</li>
-                    <li>✅ Nessuna licenza da pagare.</li>
-                    <li>✅ Creato da comunità o enti no-profit.</li>
-                    <li>✅ Nessuna pubblicità né tracciamento.</li>
-                </ul>
-                <h3 class="text-xl font-semibold text-gray-800 mt-5 mb-2">🌟 Cosa ci guadagni tu?</h3>
-                <ul class="list-disc list-inside text-gray-700 space-y-1">
-                    <li>💸 Zero costi — risparmi davvero.</li>
-                    <li>🙅‍♂️ Zero pubblicità — niente interruzioni fastidiose.</li>
-                    <li>🔧 Più controllo — sai cosa fa il programma.</li>
-                    <li>🌱 Cresce nel tempo — grazie a contributi liberi.</li>
-                </ul>
-            </section>
-            
-            <hr>
-
-            <section class="section-card">
-                <h2 class="text-3xl font-bold text-gray-800 mb-4">🖥️ Requisiti di sistema</h2>
-                <ul class="list-disc list-inside text-gray-700 space-y-1 mb-2">
-                    <li><strong>Windows 10</strong> o superiore</li>
-                    <li><strong>Linux</strong> (tutte le versioni supportate)</li>
-                    <li><strong>Mac</strong></li>
-                    <li><strong>Python 3.13</strong> o successivo</li>
-                    <li><strong>Librerie necessarie:</strong> <code>tkcalendar</code>, <code>google-genai</code>, <code>requests</code>, <code>segno</code>. Per Windows è richiesto anche <code>pypiwin32</code> per la stampa.</li>
-                    <li><strong>Stampante consigliata</strong> per la funzione di stampa</li>
-                </ul>
-             </section>
-
-             <hr>
-
-            <section class="section-card">
-                <h2 class="text-3xl font-bold text-gray-800 mb-4">🔧 Installazione e avvio</h2>
-                <h3 class="text-xl font-semibold text-gray-800 mt-6 mb-2">WINDOWS:</h3>
-                <p class="text-gray-700 space-y-2 mb-4">
-                    Puoi usare l'installer WINDOWS TUTTO AUTOMATICO .Zip (CONSIGLIATO)<br>
-                    <a href="https://github.com/Renato-4132/Casa-Facile/blob/main/C.F.Win.installer.zip" target="_blank" class="info-link">https://github.com/Renato-4132/Casa-Facile/blob/main/C.F.Win.installer.zip</a>
-                </p>
-
-                <h3 class="text-xl font-semibold text-gray-800 mt-6 mb-2">LINUX/MAC:</h3>
-                <ol class="list-decimal list-inside text-gray-700 space-y-2">
-                    <li>
-                        <b>Scarica il programma da GitHub:</b>
-                        <a href="https://github.com/Renato-4132/Casa-Facile/raw/main/Casa%20Facile.pyw" download class="text-blue-600 underline">
-                            Scarica Casa Facile.pyw
-                        </a>
-                        <br>
-                        <span style="font-size:0.95em;color:#555;">
-                            (Se cliccando il link il file viene aperto come testo nel browser, fai clic destro sul link e scegli "Salva link con nome..." per scaricarlo.)
-                        </span>
-                    </li>
-                    <li>Crea una cartella sul desktop con un nome a tua scelta.</li>
-                    <li>Copia il file all’interno della cartella e avvia <strong>Casa Facile.pyw</strong> (con doppio click o da terminale).</li>
-                    <li>Alla prima esecuzione, verranno creati i database e installate le dipendenze.</li>
-                </ol>
-
-                <h3 class="text-xl font-semibold text-gray-800 mt-6 mb-2">Oppure Installazione Manuale:</h3>
-                <ul class="list-disc list-inside text-gray-700 space-y-2 mb-4">
-                    <li>
-                        <strong>Questo programma si basa su Python.</strong> Puoi scaricare Python dal sito ufficiale:<br>
-                        <a href="https://www.python.org/downloads/" class="info-link" target="_blank">https://www.python.org/downloads/</a>
-                    </li>
-                    <li>
-                        <strong>Installazione Python su Windows:</strong><br>
-                        Scarica l’ultima versione di Python 3 (<span class="font-semibold">assicurati che sia Python 3.13 o superiore</span>). Scegli l’installer appropriato per il tuo sistema (es. "Windows installer (64-bit)").<br>
-                        Esegui il file <code>.exe</code> scaricato.<br>
-                        <span class="font-bold text-red-600">MOLTO IMPORTANTE:</span> Nella prima schermata dell’installazione, assicurati di spuntare la casella <span class="font-bold text-blue-700">"Add Python X.X to PATH"</span> (dove X.X è la versione di Python).<br>
-                        Questo è fondamentale per poter eseguire l’applicazione da qualsiasi posizione.<br>
-                        Clicca su "Install Now" e segui le istruzioni.
-                    </li>
-                    <li>
-                        <strong>I plugin pip python sono autoinstallanti, ma per buona promemoria, allego come installarli manualmente.</strong>
-                    </li>
-                    <li>
-                        <strong>Su Linux:</strong>
-                        Apri il terminale e digita:
-                        <div class="code-block my-2">pip install tkcalendar, fcntl, ctypes, google-genai, requests, win32print, win32api, win32con, segno</div>
-                    </li>
-                    <li>
-                        <strong>Su Windows:</strong>
-                        Apri il terminale (Prompt dei comandi o PowerShell) e digita:
-                        <div class="code-block my-2">py -m pip install tkcalendar, fcntl, ctypes, google-genai, requests, win32print, win32api, win32con, segno</div>
-                    </li>
-                </ul>
-                <h3 class="text-xl font-semibold text-gray-800 mt-6 mb-2">Avvio dopo l'Installazione Manuale </h3>
-                <ol class="list-decimal list-inside text-gray-700 space-y-2">
-                    <li>
-                        <b>Scarica il programma da GitHub:</b>
-                        <a href="https://github.com/Renato-4132/Casa-Facile/raw/main/Casa%20Facile.pyw" download class="text-blue-600 underline">
-                            Scarica Casa Facile.pyw
-                        </a>
-                        <br>
-                        <span style="font-size:0.95em;color:#555;">
-                            (Se cliccando il link il file viene aperto come testo nel browser, fai clic destro sul link e scegli "Salva link con nome..." per scaricarlo.)
-                        </span>
-                    </li>
-                    <li>Crea una cartella sul desktop con un nome a tua scelta.</li>
-                    <li>Copia il file all’interno della cartella e avvia <strong>Casa Facile.pyw</strong> (con doppio click o da terminale).</li>
-                    <li>Alla prima esecuzione, verranno creati i database e installate le dipendenze.</li>
-                </ol>
-            </section>
-
-            <hr>
-
-            <section class="section-card">
-                <h2 class="text-3xl font-bold text-gray-800 mb-4">💡 Cos'è "Casa Facile Pro"?</h2>
-                <p class="text-gray-700 leading-relaxed mb-2">
-                    "Casa Facile Pro" è la tua piattaforma personale per una gestione finanziaria domestica senza stress. Con un'interfaccia intuitiva e funzionalità robuste, ti permette di avere sempre sotto controllo le tue finanze. Dimentica i fogli di calcolo complessi e le note sparse: qui hai tutto ciò che ti serve in un unico posto.
-                </p>
-                <ul class="list-disc list-inside text-gray-700 space-y-1 mt-2">
-                    <li><strong>Controllo Totale:</strong> Registra ogni spesa ed entrata con facilità.</li>
-                    <li><strong>Organizzazione:</strong> Categorizza le transazioni per una visione chiara di dove vanno i tuoi soldi.</li>
-                    <li><strong>Pianificazione:</strong> Gestisci le ricorrenze per le spese fisse (affitto, bollette, abbonamenti).</li>
-                    <li><strong>Analisi:</strong> Ottieni statistiche dettagliate per capire meglio le tue abitudini di spesa.</li>
-                </ul>
-            </section>
-
-            <hr>
-
-            <section class="section-card">
-                <h2 class="text-3xl font-bold text-gray-800 mb-4">⚙️ Come Funziona?</h2>
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                    <div>
-                        <h3 class="text-2xl font-semibold text-gray-800 mb-3">📅 Calendario e Riepilogo</h3>
-                        <p class="text-gray-700 mb-2">
-                            Il calendario ti offre una visione immediata delle tue giornate finanziarie, con colori che indicano entrate (verde), uscite (rosso) o entrambi (giallo).
-                            Sotto il calendario, trovi un riepilogo annuale e mensile delle tue finanze.
-                        </p>
-                        <ul class="list-disc list-inside text-gray-700 space-y-1 mt-2">
-                            <li><strong>Navigazione Facile:</strong> Seleziona un giorno per vedere le transazioni specifiche.</li>
-                            <li><strong>Colorazione Intuitiva:</strong> Riconosci a colpo d'occhio i giorni con attività finanziarie.</li>
-                            <li><strong>Riepiloghi Rapidi:</strong> Controlla entrate, uscite e differenze per mese e anno.</li>
-                        </ul>
+            <div class="space-y-6">
+                <h2 class="text-3xl font-bold flex items-center text-white">
+                    <i class="fab fa-windows mr-3 text-blue-400"></i> Windows (Automatico)
+                </h2>
+                <p class="text-slate-400">La soluzione più rapida tramite installer pre-configurato.</p>
+                <div class="bg-slate-800 p-6 rounded-2xl border border-slate-700 space-y-4">
+                    <div class="flex items-start">
+                        <span class="step-number mt-1 mr-3">1</span>
+                        <div>
+                            <p>Scarica il pacchetto installer:</p>
+                            <a href="https://github.com/Renato-4132/Casa-Facile/raw/main/C.F.Win.Installer.zip" class="btn-download">
+                                <i class="fas fa-file-archive mr-2"></i> Scarica Installer .zip
+                            </a>
+                        </div>
                     </div>
-                    <div>
-                        <h3 class="text-2xl font-semibold text-gray-800 mb-3">📊 Statistiche e Inserimento</h3>
-                        <p class="text-gray-700 mb-2">
-                            Sul lato destro dell'interfaccia principale, trovi la sezione per l'inserimento di nuove spese/entrate e le statistiche dettagliate.
-                        </p>
-                        <ul class="list-disc list-inside text-gray-700 space-y-1 mt-2">
-                            <li><strong>Inserimento Semplice:</strong> Aggiungi transazioni con data, categoria, descrizione, importo e tipo (entrata/uscita).</li>
-                            <li><strong>Modifica e Cancella:</strong> Gestisci le voci esistenti con facilità.</li>
-                            <li><strong>Ricorrenze:</strong> Imposta spese o entrate che si ripetono giornalmente, mensilmente o annualmente.</li>
-                            <li><strong>Visualizzazione Statistiche:</strong> Scegli tra statistiche giornaliere, mensili, annuali o totali per categoria.</li>
-                        </ul>
+                    <div class="flex items-start">
+                        <span class="step-number mt-1 mr-3">2</span>
+                        <p>Estrai i file in una cartella locale (es. sul Desktop).</p>
+                    </div>
+                    <div class="flex items-start">
+                        <span class="step-number mt-1 mr-3">3</span>
+                        <p>Esegui l'installer: configurerà database e icone automaticamente.</p>
+                    </div>
+                    <div class="flex items-start pt-2 border-t border-slate-700">
+                        <span class="step-number mt-1 mr-3 bg-indigo-400">4</span>
+                        <p class="text-indigo-200"><strong>Nota:</strong> Eseguendo nuovamente l'installer, il sistema richiederà la creazione di un nuovo utente e configurerà una nuova utenza dedicata.</p>
                     </div>
                 </div>
-            </section>
+            </div>
 
-            <hr>
-
-            <section class="section-card">
-                <h2 class="text-3xl font-bold text-gray-800 mb-4">🚀 Come Usarla al Meglio?</h2>
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                    <div>
-                        <h3 class="text-2xl font-semibold text-gray-800 mb-3">🏷️ Gestione Categorie</h3>
-                        <p class="text-gray-700 mb-2">
-                            Crea e personalizza le tue categorie di spesa e entrata. Questo ti aiuterà a organizzare meglio le tue finanze e a ottenere statistiche più precise.
-                        </p>
-                        <ul class="list-disc list-inside text-gray-700 space-y-1 mt-2">
-                            <li><strong>Aggiungi Nuove Categorie:</strong> Personalizza l'app in base alle tue esigenze.</li>
-                            <li><strong>Modifica e Cancella:</strong> Mantieni le tue categorie sempre aggiornate.</li>
-                        </ul>
-
-                        <h3 class="text-2xl font-semibold text-gray-800 mt-6 mb-3">💰 Saldo Conto Corrente</h3>
-                        <p class="text-gray-700 mb-2">
-                            Tieni traccia del saldo del tuo conto corrente. Inserisci l'ultimo saldo e la data, e l'app calcolerà il saldo aggiornato in base alle tue transazioni.
-                        </p>
-                        <ul class="list-disc list-inside text-gray-700 space-y-1 mt-2">
-                            <li><strong>Aggiornamento Facile:</strong> Inserisci il saldo più recente per una visione sempre aggiornata.</li>
-                            <li><strong>Previsioni:</strong> Visualizza il saldo stimato per mese, anno e totale.</li>
-                        </ul>
-
-                        <h3 class="text-2xl font-semibold text-gray-800 mt-6 mb-3">💧💡🔥 Gestione Utenze</h3>
-                        <p class="text-gray-700 mb-2">
-                            Monitora i consumi di acqua, luce e gas. Inserisci le letture precedenti e attuali per calcolare il consumo e tenere traccia delle tue bollette.
-                        </p>
-                        <ul class="list-disc list-inside text-gray-700 space-y-1 mt-2">
-                            <li><strong>Tracciamento Consumi:</strong> Inserisci le letture mensili per calcolare il consumo.</li>
-                            <li><strong>Anagrafiche:</strong> Salva i dettagli dei fornitori di utenze.</li>
-                            <li><strong>Report:</strong> Visualizza ed esporta i consumi per anno.</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h3 class="text-2xl font-semibold text-gray-800 mb-3">👥 Rubrica Contatti</h3>
-                        <p class="text-gray-700 mb-2">
-                            Una rubrica integrata per gestire i tuoi contatti personali, con campi per nome, telefono, email e note.
-                        </p>
-                        <ul class="list-disc list-inside text-gray-700 space-y-1 mt-2">
-                            <li><strong>Gestione Completa:</strong> Aggiungi, modifica, cancella e cerca contatti.</li>
-                            <li><strong>Esportazione:</strong> Esporta la rubrica in formato testo o JSON.</li>
-                        </ul>
-                        
-                        <h3 class="text-2xl font-semibold text-gray-800 mt-6 mb-3">🏦 Gestione Finanziamenti</h3>
-                        <p class="text-gray-700 mb-2">
-                            Simula multipli scenari per prestiti e mutui con piani di ammortamento dettagliati.
-                        </p>
-                        <ul class="list-disc list-inside text-gray-700 space-y-1 mt-2">
-                            <li><strong>Simulazioni Scenari:</strong> Inserisci i parametri del prestito (capitale, tasso, durata) per calcolare le rate e l'ammortamento.</li>
-                            <li><strong>Anagrafiche:</strong> Salva i dettagli di mutui/finanziamenti ricorrenti.</li>
-                            <li><strong>Report:</strong> Visualizza ed esporta i piani di ammortamento e i costi totali del debito.</li>
-                        </ul>
-
-                        <h3 class="text-2xl font-semibold text-gray-800 mt-6 mb-3">🛒 Gestione Supermercati</h3>
-                        <p class="text-gray-700 mb-2">
-                            Ottimizza la lista della spesa confrontando i prezzi dei cataloghi e gestendo l'inventario.
-                        </p>
-                        <ul class="list-disc list-inside text-gray-700 space-y-1 mt-2">
-                            <li><strong>Confronto Prezzi:</strong> Esegue il confronto in tempo reale tra tutti i cataloghi, mostrando il prezzo minimo disponibile e il relativo supermercato per ogni articolo.</li>
-                            <li><strong>Costruzione Ottimizzata:</strong> La lista finale suggerisce automaticamente il supermercato più economico per ogni acquisto.</li>
-                            <li><strong>Gestione Quantità:</strong> Doppio click sulla riga per incrementare la quantità da comprare.</li>
-                        </ul>
-                    </div>
+            <div class="space-y-6">
+                <h2 class="text-3xl font-bold flex items-center text-white">
+                    <i class="fas fa-terminal mr-3 text-green-400"></i> Installazione Manuale
+                </h2>
+                <p class="text-slate-400">Per Linux, Mac o utenti Windows che preferiscono il controllo diretto.</p>
+                
+                <div class="warning-box mb-4">
+                    <h4 class="font-bold text-yellow-500 mb-2"><i class="fas fa-exclamation-triangle mr-2"></i> Fondamentale:</h4>
+                    <p class="text-sm">Scarica <strong>Python 3.13+</strong>. Durante l'installazione, devi assolutamente spuntare la casella <span class="underline">"Add Python to PATH"</span>.</p>
                 </div>
 
-                <h3 class="text-2xl font-semibold text-gray-800 mt-8 mb-3">🔄 Backup, Import/Export e Stampa</h3>
-                <ul class="list-disc list-inside text-gray-700 space-y-1 mt-2">
-                    <li><strong>Backup Incrementale:</strong> I tuoi dati sono al sicuro con backup automatici.</li>
-                    <li><strong>Importa/Esporta Database:</strong> Sposta i tuoi dati tra diverse installazioni o per archiviarli.</li>
-                    <li><strong>Stampa Report:</strong> Genera report dettagliati delle tue finanze in formato stampabile.</li>
-                </ul>
-            </section>
+                <div class="bg-slate-800 p-6 rounded-2xl border border-slate-700 space-y-4 text-sm">
+                    <p>Il programma è <strong>auto-installante</strong>. Una volta configurato Python:</p>
+                    <ol class="list-decimal list-inside space-y-2 text-slate-300">
+                        <li>Crea una cartella per il programma.</li>
+                        <li>Scarica e copia all'interno il file sorgente:
+                            <br>
+                            <a href="https://github.com/Renato-4132/Casa-Facile" class="btn-download bg-green-600 mt-2">
+                                <i class="fab fa-python mr-2"></i> Scarica Casa Facile.pyw
+                            </a>
+                        </li>
+                        <li class="mt-4">Avvia il file: il software scaricherà da solo le librerie necessarie.</li>
+                    </ol>
+                    <p class="text-xs text-slate-500 mt-4 italic">Per sicurezza, se l'auto-installazione fallisse, il comando manuale è:</p>
+                    <div class="code-box text-xs">pip install tkcalendar google-genai requests segno pypiwin32</div>
+                </div>
+            </div>
+        </section>
 
-            <div class="text-center mt-12 flex flex-col sm:flex-row justify-center items-center gap-4">
-                <a href="https://github.com/Renato-4132/Casa-Facile" class="btn-back">
-                    ← Torna alla Pagina Principale
-                </a>
-                <a href="https://github.com/Renato-4132/Casa-Facile/blob/main/Casa-Facile.mp4?raw=true" target="_blank" class="btn-demo">
-                    🎬 Guarda la Video Demo
+        <section class="mb-20">
+            <h2 class="text-4xl font-bold text-center mb-12 text-white">Potenza e Controllo in 20+ Funzioni</h2>
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+                <div class="feature-card p-5 rounded-lg text-center">
+                    <i class="fas fa-calendar-check text-indigo-400 text-2xl mb-2"></i>
+                    <h3 class="font-bold">1. Calendario Heartbeat</h3>
+                </div>
+                <div class="feature-card p-5 rounded-lg text-center">
+                    <i class="fas fa-clock text-indigo-400 text-2xl mb-2"></i>
+                    <h3 class="font-bold">2. Gestione Ricorrenze</h3>
+                </div>
+                <div class="feature-card p-5 rounded-lg text-center">
+                    <i class="fas fa-chart-line text-indigo-400 text-2xl mb-2"></i>
+                    <h3 class="font-bold">3. Grafici Drill-Down</h3>
+                </div>
+                <div class="feature-card p-5 rounded-lg text-center">
+                    <i class="fas fa-file-archive text-indigo-400 text-2xl mb-2"></i>
+                    <h3 class="font-bold">4. Archivio PDF Uscite</h3>
+                </div>
+                <div class="feature-card p-5 rounded-lg text-center">
+                    <i class="fas fa-bolt text-indigo-400 text-2xl mb-2"></i>
+                    <h3 class="font-bold">5. Monitor Utenze</h3>
+                </div>
+                <div class="feature-card p-5 rounded-lg text-center">
+                    <i class="fas fa-hourglass-half text-indigo-400 text-2xl mb-2"></i>
+                    <h3 class="font-bold">6. Simulatore Risparmio</h3>
+                </div>
+                <div class="feature-card p-5 rounded-lg text-center">
+                    <i class="fas fa-magic text-indigo-400 text-2xl mb-2"></i>
+                    <h3 class="font-bold">7. Proiezione 31/12</h3>
+                </div>
+                <div class="feature-card p-5 rounded-lg text-center">
+                    <i class="fas fa-wifi text-indigo-400 text-2xl mb-2"></i>
+                    <h3 class="font-bold">8. Webserver Wi-Fi</h3>
+                </div>
+                <div class="feature-card p-5 rounded-lg text-center">
+                    <i class="fas fa-shopping-cart text-indigo-400 text-2xl mb-2"></i>
+                    <h3 class="font-bold">9. Confronto Prezzi Spesa</h3>
+                </div>
+                <div class="feature-card p-5 rounded-lg text-center">
+                    <i class="fas fa-calculator text-indigo-400 text-2xl mb-2"></i>
+                    <h3 class="font-bold">10. Ammortamento Mutui</h3>
+                </div>
+                <div class="feature-card p-5 rounded-lg text-center">
+                    <i class="fas fa-qrcode text-indigo-400 text-2xl mb-2"></i>
+                    <h3 class="font-bold">11. Generatore QR Code</h3>
+                </div>
+                <div class="feature-card p-5 rounded-lg text-center">
+                    <i class="fas fa-save text-indigo-400 text-2xl mb-2"></i>
+                    <h3 class="font-bold">12. Backup JSON Locale</h3>
+                </div>
+                <div class="feature-card p-5 rounded-lg text-center">
+                    <i class="fas fa-address-book text-indigo-400 text-2xl mb-2"></i>
+                    <h3 class="font-bold">13. Rubrica Vcard/Android</h3>
+                </div>
+                <div class="feature-card p-5 rounded-lg text-center">
+                    <i class="fas fa-print text-indigo-400 text-2xl mb-2"></i>
+                    <h3 class="font-bold">14. Stampa Report PDF</h3>
+                </div>
+                <div class="feature-card p-5 rounded-lg text-center">
+                    <i class="fas fa-university text-indigo-400 text-2xl mb-2"></i>
+                    <h3 class="font-bold">15. Saldo Bancario Reale</h3>
+                </div>
+                <div class="feature-card p-5 rounded-lg text-center">
+                    <i class="fas fa-search text-indigo-400 text-2xl mb-2"></i>
+                    <h3 class="font-bold">16. Ricerca Multi-Filtro</h3>
+                </div>
+                <div class="feature-card p-5 rounded-lg text-center">
+                    <i class="fas fa-users-cog text-indigo-400 text-2xl mb-2"></i>
+                    <h3 class="font-bold">17. Profili Multi-Utente</h3>
+                </div>
+                <div class="feature-card p-5 rounded-lg text-center">
+                    <i class="fas fa-user-shield text-indigo-400 text-2xl mb-2"></i>
+                    <h3 class="font-bold">18. Sicurezza Password</h3>
+                </div>
+                <div class="feature-card p-5 rounded-lg text-center">
+                    <i class="fas fa-file-export text-indigo-400 text-2xl mb-2"></i>
+                    <h3 class="font-bold">19. Esportazione Stampa TXT</h3>
+                </div>
+                <div class="feature-card p-5 rounded-lg text-center">
+                    <i class="fas fa-layer-group text-indigo-400 text-2xl mb-2"></i>
+                    <h3 class="font-bold">20. Aggregazione Categorie</h3>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-slate-800 p-10 rounded-3xl border border-slate-700 text-center mb-20">
+            <h2 class="text-2xl font-bold mb-6 text-white italic">"I tuoi dati sono tuoi. Punto."</h2>
+            <div class="flex flex-col md:flex-row justify-center items-center gap-8">
+                <div class="max-w-xs">
+                    <i class="fas fa-shield-alt text-4xl text-green-500 mb-4"></i>
+                    <p class="text-sm">Nessun invio al cloud. Il database risiede esclusivamente nel tuo hard disk.</p>
+                </div>
+                <div class="max-w-xs">
+                    <i class="fas fa-eye-slash text-4xl text-red-500 mb-4"></i>
+                    <p class="text-sm">Codice Opensource (MIT): trasparenza totale su come vengono gestiti i risparmi.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="space-y-10">
+            <h2 class="text-4xl font-bold text-center text-white">Video Demo & Sviluppo</h2>
+            <div class="video-container shadow-2xl">
+                <video controls autoplay loop muted>
+                    <source src="https://github.com/Renato-4132/Casa-Facile/raw/main/Casa-Facile.mp4" type="video/mp4">
+                    Il tuo browser non supporta il tag video.
+                </video>
+            </div>
+            <div class="text-center">
+                <a href="https://github.com/Renato-4132/Casa-Facile" target="_blank" class="inline-flex items-center px-8 py-4 bg-indigo-600 hover:bg-indigo-700 text-white font-bold rounded-full transition-colors duration-300">
+                    <i class="fab fa-github mr-3 text-2xl"></i> Esplora la Repository su GitHub
                 </a>
             </div>
-        </main>
+        </section>
 
-        <footer class="mt-12 text-center text-gray-500 text-sm">
-            <p>&copy; 2025 Casa Facile Pro. Tutti i diritti riservati.</p>
-        </footer>
-    </div>
+    </main>
+
+    <footer class="py-8 text-center text-slate-500 border-t border-slate-800 mt-10 text-sm">
+        <p>Supporto Tecnico: <a href="mailto:helpcasafacilepro@gmail.com" class="text-indigo-400">helpcasafacilepro@gmail.com</a></p>
+        <p class="mt-2">Casa Facile Pro 2026 - Licenza MIT</p>
+    </footer>
+
 </body>
 </html>

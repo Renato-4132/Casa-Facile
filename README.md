@@ -2,8 +2,8 @@
 ![Linux Support](https://img.shields.io/badge/Linux-✔️-yellow?logo=linux)
 
 https://renato-4132.github.io/Casa-Facile/
-
-![main 3](https://github.com/user-attachments/assets/11bc4209-6c52-4eae-8c17-8f576e1b2393)
+![main1](https://github.com/user-attachments/assets/d0423920-6b78-49aa-b8d7-718985454e39)
+![main6](https://github.com/user-attachments/assets/5ed8aaf9-189d-4290-969b-43ff09b6da6f)
 
 helpcasafacilepro@gmail.com
 

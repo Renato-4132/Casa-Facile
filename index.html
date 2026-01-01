@@ -23,55 +23,75 @@
 </head>
 <body class="antialiased">
 
-    <header class="hero-gradient py-8 px-4 text-center">
-        <h1 class="text-4xl md:text-5xl font-black text-white mb-2 tracking-tight">CASA FACILE <span class="text-indigo-500">PRO</span></h1>
-        <p class="text-base md:text-lg text-slate-400 mb-6">Guida Integrale all'Installazione 2026</p>
+<header class="hero-gradient py-8 md:py-12 px-4 text-center">
+        <h1 class="text-3xl md:text-5xl font-black text-white mb-2 tracking-tight">CASA FACILE <span class="text-indigo-500">PRO</span></h1>
+        <p class="text-base md:text-lg text-slate-400 mb-6 uppercase tracking-widest">Guida Installazione 2026</p>
         
-        <div class="flex justify-center">
+        <div class="flex justify-center px-2">
             <img src="https://github.com/user-attachments/assets/d0423920-6b78-49aa-b8d7-718985454e39" 
                  alt="Anteprima Software" 
-                 class="w-full max-w-4xl h-auto rounded-xl shadow-2xl border-2 md:border-4 border-slate-700">
+                 class="w-full max-w-4xl h-auto rounded-lg md:rounded-xl shadow-2xl border-2 md:border-4 border-slate-700">
         </div>
     </header>
 
-    <main class="max-w-6xl mx-auto px-4 py-12">
-
-        <section class="mb-16 bg-indigo-900/20 border border-indigo-500/50 p-6 rounded-2xl">
-            <h2 class="text-2xl font-bold text-indigo-300 mb-4 flex items-center">
-                <i class="fas fa-folder-plus mr-3"></i> 1. Crea la tua Cartella Utenza
-            </h2>
-            <p class="text-slate-300 mb-4">
-                Il software lavora in modo "isolato". Prima di fare qualsiasi cosa:
-            </p>
-            <ul class="list-disc list-inside space-y-2 text-slate-400">
-                <li>Crea una nuova cartella (es. sul Desktop).</li>
-                <li><strong>Rinominala con il tuo nome</strong> (es: <code class="text-indigo-300">Famiglia_Rossi</code>).</li>
-                <li>Tutti i file che scarichi qui sotto vanno messi <strong>dentro</strong> quella cartella.</li>
-            </ul>
-        </section>
+    <main class="max-w-6xl mx-auto px-4 py-8 md:py-12">
 
         <section class="grid md:grid-cols-2 gap-10 mb-20">
+            
             <div class="space-y-6">
-                <h3 class="text-2xl font-bold text-white"><i class="fab fa-windows mr-2 text-blue-400"></i> Windows Installer</h3>
-                <div class="bg-slate-800 p-6 rounded-2xl border border-slate-700">
-                    <p class="text-sm mb-4">Scarica, estrai nella cartella utenza e avvia.</p>
-                    <a href="https://raw.githubusercontent.com/Renato-4132/Casa-Facile/main/C.F.Win.Installer.zip" download class="btn-download w-full justify-center">
-                        <i class="fas fa-download mr-2"></i> DOWNLOAD .ZIP
-                    </a>
+                <h2 class="text-3xl font-bold flex items-center text-white">
+                    <i class="fab fa-windows mr-3 text-blue-400"></i> Windows (Automatico)
+                </h2>
+                <p class="text-slate-400">La soluzione più rapida tramite installer pre-configurato.</p>
+                <div class="bg-slate-800 p-6 rounded-2xl border border-slate-700 space-y-4">
+                    <div class="flex items-start">
+                        <span class="step-number mt-1 mr-3">1</span>
+                        <div>
+                            <p class="mb-2">Scarica il pacchetto installer:</p>
+                            <a href="https://github.com/Renato-4132/Casa-Facile/blob/main/C.F.Win.Installer.zip" target="_blank" class="btn-download">
+                                <i class="fas fa-file-archive mr-2"></i> Vai alla Pagina Installer
+                            </a>
+                        </div>
+                    </div>
+                    <div class="flex items-start">
+                        <span class="step-number mt-1 mr-3">2</span>
+                        <p>Estrai i file in una cartella locale rinominata col tuo <b>Nome Utenza</b>.</p>
+                    </div>
+                    <div class="flex items-start">
+                        <span class="step-number mt-1 mr-3">3</span>
+                        <p>Esegui l'installer: configurerà database e icone automaticamente.</p>
+                    </div>
+                    <div class="flex items-start pt-2 border-t border-slate-700">
+                        <span class="step-number mt-1 mr-3 bg-indigo-400">4</span>
+                        <p class="text-indigo-200"><strong>Nota:</strong> Rieseguendo l'installer potrai configurare nuove utenze dedicate.</p>
+                    </div>
                 </div>
             </div>
 
             <div class="space-y-6">
-                <h3 class="text-2xl font-bold text-white"><i class="fab fa-python mr-2 text-green-400"></i> Python Source</h3>
-                <div class="bg-slate-800 p-6 rounded-2xl border border-slate-700">
-                    <p class="text-sm mb-4">Per esperti o sistemi Linux/Mac. Salva nella cartella utenza.</p>
-                    <a href="https://raw.githubusercontent.com/Renato-4132/Casa-Facile/main/" download class="btn-download bg-green-600 w-full justify-center">
-                        <i class="fas fa-file-code mr-2"></i> DOWNLOAD .PYW
-                    </a>
+                <h2 class="text-3xl font-bold flex items-center text-white">
+                    <i class="fas fa-terminal mr-3 text-green-400"></i> Installazione Manuale
+                </h2>
+                <div class="warning-box mb-4">
+                    <p class="text-sm">Scarica <strong>Python 3.13+</strong> e spunta <span class="underline">"Add Python to PATH"</span>.</p>
+                </div>
+
+                <div class="bg-slate-800 p-6 rounded-2xl border border-slate-700 space-y-4 text-sm">
+                    <p>Il programma è <strong>auto-installante</strong>:</p>
+                    <ol class="list-decimal list-inside space-y-2 text-slate-300">
+                        <li>Crea una cartella con il tuo 'Nome Utenza' (es. Famiglia_Rossi).</li>
+                        <li>Scarica il file sorgente da GitHub:
+                            <br>
+                            <a href="https://github.com/Renato-4132/Casa-Facile/blob/main/Casa%20Facile.pyw" target="_blank" class="btn-download bg-green-600 mt-2">
+                                <i class="fab fa-python mr-2"></i> Vedi Sorgente .pyw su GitHub
+                            </a>
+                        </li>
+                        <li class="mt-4">Sposta il file nella cartella e avvialo: le librerie verranno scaricate da sole.</li>
+                    </ol>
+                    <div class="code-box text-xs mt-4">pip install tkcalendar google-genai requests segno pypiwin32</div>
                 </div>
             </div>
         </section>
-        
 
         <section class="mb-20">
             <h2 class="text-4xl font-bold text-center mb-12 text-white">Potenza e Controllo in 20+ Funzioni</h2>

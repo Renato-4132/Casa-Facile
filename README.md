@@ -1,6 +1,14 @@
 ![Language](https://img.shields.io/badge/language-Python-F7DF1E?logo=python&logoColor=black) ![Repo Size](https://img.shields.io/github/repo-size/Renato-4132/Casa-Facile) ![Windows Support](https://img.shields.io/badge/Windows-✔️-blue?logo=windows) ![macOS Support](https://img.shields.io/badge/macOS-✔️-lightgrey?logo=apple)
 ![Linux Support](https://img.shields.io/badge/Linux-✔️-yellow?logo=linux)
 
+# 🏠 Casa Facile Pro 2026
+
+Benvenuti nel software professionale per la gestione della contabilità domestica.
+
+### 🌐 [CLICCA QUI PER LA GUIDA INTERATTIVA E IL DOWNLOAD](https://renato-4132.github.io/Casa-Facile/)
+
+---
+*Per l'installazione manuale, segui le istruzioni nella pagina web dedicata.*
 https://renato-4132.github.io/Casa-Facile/
 ![main1](https://github.com/user-attachments/assets/d0423920-6b78-49aa-b8d7-718985454e39)
 ![main6](https://github.com/user-attachments/assets/5ed8aaf9-189d-4290-969b-43ff09b6da6f)

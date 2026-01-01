@@ -23,18 +23,15 @@
 </head>
 <body class="antialiased">
 
-<header class="hero-gradient py-8 md:py-12 px-4 text-center">
-        <h1 class="text-3xl md:text-5xl font-black text-white mb-2 tracking-tight">CASA FACILE <span class="text-indigo-500">PRO</span></h1>
-        <p class="text-base md:text-lg text-slate-400 mb-6 uppercase tracking-widest">Guida Installazione 2026</p>
-        
-        <div class="flex justify-center px-2">
-            <img src="https://github.com/user-attachments/assets/d0423920-6b78-49aa-b8d7-718985454e39" 
-                 alt="Anteprima Software" 
-                 class="w-full max-w-4xl h-auto rounded-lg md:rounded-xl shadow-2xl border-2 md:border-4 border-slate-700">
-        </div>
+<header class="hero-gradient py-12 px-4 text-center">
+        <h1 class="text-5xl font-black text-white mb-2 tracking-tight">CASA FACILE <span class="text-indigo-500">PRO</span></h1>
+        <p class="text-lg text-slate-400 mb-6">Guida Integrale all'Installazione e Funzionalità Avanzate</p>
+        <img src="https://github.com/user-attachments/assets/d0423920-6b78-49aa-b8d7-718985454e39" 
+             alt="Anteprima Software" 
+             class="w-full max-w-3xl mx-auto rounded-xl shadow-2xl border-4 border-slate-700 h-auto">
     </header>
 
-    <main class="max-w-6xl mx-auto px-4 py-8 md:py-12">
+    <main class="max-w-6xl mx-auto px-4 py-12">
 
         <section class="grid md:grid-cols-2 gap-10 mb-20">
             
@@ -47,15 +44,15 @@
                     <div class="flex items-start">
                         <span class="step-number mt-1 mr-3">1</span>
                         <div>
-                            <p class="mb-2">Scarica il pacchetto installer:</p>
-                            <a href="https://github.com/Renato-4132/Casa-Facile/blob/main/C.F.Win.Installer.zip" target="_blank" class="btn-download">
-                                <i class="fas fa-file-archive mr-2"></i> Vai alla Pagina Installer
+                            <p>Scarica il pacchetto installer:</p>
+                            <a href="https://github.com/Renato-4132/Casa-Facile/raw/main/C.F.Win.Installer.zip" class="btn-download">
+                                <i class="fas fa-file-archive mr-2"></i> Scarica Installer .zip
                             </a>
                         </div>
                     </div>
                     <div class="flex items-start">
                         <span class="step-number mt-1 mr-3">2</span>
-                        <p>Estrai i file in una cartella locale rinominata col tuo <b>Nome Utenza</b>.</p>
+                        <p>Estrai i file in una cartella locale (es. sul Desktop).</p>
                     </div>
                     <div class="flex items-start">
                         <span class="step-number mt-1 mr-3">3</span>
@@ -63,7 +60,7 @@
                     </div>
                     <div class="flex items-start pt-2 border-t border-slate-700">
                         <span class="step-number mt-1 mr-3 bg-indigo-400">4</span>
-                        <p class="text-indigo-200"><strong>Nota:</strong> Rieseguendo l'installer potrai configurare nuove utenze dedicate.</p>
+                        <p class="text-indigo-200"><strong>Nota:</strong> Eseguendo nuovamente l'installer, il sistema richiederà la creazione di un nuovo utente e configurerà una nuova utenza dedicata.</p>
                     </div>
                 </div>
             </div>
@@ -72,23 +69,27 @@
                 <h2 class="text-3xl font-bold flex items-center text-white">
                     <i class="fas fa-terminal mr-3 text-green-400"></i> Installazione Manuale
                 </h2>
+                <p class="text-slate-400">Per Linux, Mac o utenti Windows che preferiscono il controllo diretto.</p>
+                
                 <div class="warning-box mb-4">
-                    <p class="text-sm">Scarica <strong>Python 3.13+</strong> e spunta <span class="underline">"Add Python to PATH"</span>.</p>
+                    <h4 class="font-bold text-yellow-500 mb-2"><i class="fas fa-exclamation-triangle mr-2"></i> Fondamentale:</h4>
+                    <p class="text-sm">Scarica <strong>Python 3.13+</strong>. Durante l'installazione, devi assolutamente spuntare la casella <span class="underline">"Add Python to PATH"</span>.</p>
                 </div>
 
                 <div class="bg-slate-800 p-6 rounded-2xl border border-slate-700 space-y-4 text-sm">
-                    <p>Il programma è <strong>auto-installante</strong>:</p>
+                    <p>Il programma è <strong>auto-installante</strong>. Una volta configurato Python:</p>
                     <ol class="list-decimal list-inside space-y-2 text-slate-300">
-                        <li>Crea una cartella con il tuo 'Nome Utenza' (es. Famiglia_Rossi).</li>
-                        <li>Scarica il file sorgente da GitHub:
+                        <li>Crea una cartella 'Nome Utenza' per il programma (Es. Famiglia_Rossi).</li>
+                        <li>Scarica e copia all'interno il file sorgente:
                             <br>
-                            <a href="https://github.com/Renato-4132/Casa-Facile/blob/main/Casa%20Facile.pyw" target="_blank" class="btn-download bg-green-600 mt-2">
-                                <i class="fab fa-python mr-2"></i> Vedi Sorgente .pyw su GitHub
+                            <a href="https://github.com/Renato-4132/Casa-Facile" class="btn-download bg-green-600 mt-2">
+                                <i class="fab fa-python mr-2"></i> Scarica Casa Facile.pyw
                             </a>
                         </li>
-                        <li class="mt-4">Sposta il file nella cartella e avvialo: le librerie verranno scaricate da sole.</li>
+                        <li class="mt-4">Avvia il file: il software scaricherà da solo le librerie necessarie.</li>
                     </ol>
-                    <div class="code-box text-xs mt-4">pip install tkcalendar google-genai requests segno pypiwin32</div>
+                    <p class="text-xs text-slate-500 mt-4 italic">Per sicurezza, se l'auto-installazione fallisse, il comando manuale è:</p>
+                    <div class="code-box text-xs">pip install tkcalendar google-genai requests segno pypiwin32</div>
                 </div>
             </div>
         </section>

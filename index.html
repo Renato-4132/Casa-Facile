@@ -23,9 +23,9 @@
 </head>
 <body class="antialiased">
 
-<header class="hero-gradient py-12 px-4 text-center">
+    <header class="hero-gradient py-12 px-4 text-center">
         <h1 class="text-5xl font-black text-white mb-2 tracking-tight">CASA FACILE <span class="text-indigo-500">PRO</span></h1>
-        <p class="text-lg text-slate-400 mb-6">Guida Integrale all'Installazione e Funzionalità Avanzate</p>
+        <p class="text-lg text-slate-400 mb-6">Il centro di comando per la tua gestione domestica, dalle spese quotidiane al risparmio intelligente.</p>
         <img src="https://github.com/user-attachments/assets/d0423920-6b78-49aa-b8d7-718985454e39" 
              alt="Anteprima Software" 
              class="w-full max-w-3xl mx-auto rounded-xl shadow-2xl border-4 border-slate-700 h-auto">
@@ -33,69 +33,21 @@
 
     <main class="max-w-6xl mx-auto px-4 py-12">
 
-        <section class="grid md:grid-cols-2 gap-10 mb-20">
-            
-            <div class="space-y-6">
-                <h2 class="text-3xl font-bold flex items-center text-white">
-                    <i class="fab fa-windows mr-3 text-blue-400"></i> Windows (Automatico)
-                </h2>
-                <p class="text-slate-400">La soluzione più rapida tramite installer pre-configurato.</p>
-                <div class="bg-slate-800 p-6 rounded-2xl border border-slate-700 space-y-4">
-                    <div class="flex items-start">
-                        <span class="step-number mt-1 mr-3">1</span>
-                        <div>
-                            <p>Scarica il pacchetto installer:</p>
-                            <a href="https://github.com/Renato-4132/Casa-Facile/raw/main/C.F.Win.Installer.zip" class="btn-download">
-                                <i class="fas fa-file-archive mr-2"></i> Scarica Installer .zip
-                            </a>
-                        </div>
-                    </div>
-                    <div class="flex items-start">
-                        <span class="step-number mt-1 mr-3">2</span>
-                        <p>Estrai i file in una cartella locale (es. sul Desktop).</p>
-                    </div>
-                    <div class="flex items-start">
-                        <span class="step-number mt-1 mr-3">3</span>
-                        <p>Esegui l'installer: configurerà database e icone automaticamente.</p>
-                    </div>
-                    <div class="flex items-start pt-2 border-t border-slate-700">
-                        <span class="step-number mt-1 mr-3 bg-indigo-400">4</span>
-                        <p class="text-indigo-200"><strong>Nota:</strong> Eseguendo nuovamente l'installer, il sistema richiederà la creazione di un nuovo utente e configurerà una nuova utenza dedicata.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="space-y-6">
-                <h2 class="text-3xl font-bold flex items-center text-white">
-                    <i class="fas fa-terminal mr-3 text-green-400"></i> Installazione Manuale
-                </h2>
-                <p class="text-slate-400">Per Linux, Mac o utenti Windows che preferiscono il controllo diretto.</p>
-                
-                <div class="warning-box mb-4">
-                    <h4 class="font-bold text-yellow-500 mb-2"><i class="fas fa-exclamation-triangle mr-2"></i> Fondamentale:</h4>
-                    <p class="text-sm">Scarica <strong>Python 3.13+</strong>. Durante l'installazione, devi assolutamente spuntare la casella <span class="underline">"Add Python to PATH"</span>.</p>
-                </div>
-
-                <div class="bg-slate-800 p-6 rounded-2xl border border-slate-700 space-y-4 text-sm">
-                    <p>Il programma è <strong>auto-installante</strong>. Una volta configurato Python:</p>
-                    <ol class="list-decimal list-inside space-y-2 text-slate-300">
-                        <li>Crea una cartella 'Nome Utenza' per il programma (Es. Famiglia_Rossi).</li>
-                        <li>Scarica e copia all'interno il file sorgente:
-                            <br>
-                            <a href="https://github.com/Renato-4132/Casa-Facile" class="btn-download bg-green-600 mt-2">
-                                <i class="fab fa-python mr-2"></i> Scarica Casa Facile.pyw
-                            </a>
-                        </li>
-                        <li class="mt-4">Avvia il file: il software scaricherà da solo le librerie necessarie.</li>
-                    </ol>
-                    <p class="text-xs text-slate-500 mt-4 italic">Per sicurezza, se l'auto-installazione fallisse, il comando manuale è:</p>
-                    <div class="code-box text-xs">pip install tkcalendar google-genai requests segno pypiwin32</div>
-                </div>
+        <section class="max-w-4xl mx-auto text-center mb-20">
+            <h2 class="text-2xl font-semibold text-indigo-400 mb-4 uppercase tracking-widest">L'Essenza del Software</h2>
+            <p class="text-xl text-slate-300 leading-relaxed mb-8">
+                Casa Facile Pro è un ecosistema <span class="text-white font-bold">Open Source</span> progettato per chi vuole il controllo totale sulle proprie finanze senza rinunciare alla <span class="text-white font-bold">Privacy</span>. Unisce la potenza di un software gestionale alla semplicità di un'app domestica.
+            </p>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-sm">
+                <div class="p-3 bg-slate-800/50 rounded-lg border border-slate-700">🚀 <strong>Zero Cloud</strong><br><span class="text-slate-500">Dati solo su PC</span></div>
+                <div class="p-3 bg-slate-800/50 rounded-lg border border-slate-700">💰 <strong>Smart Saving</strong><br><span class="text-slate-500">Confronto prezzi</span></div>
+                <div class="p-3 bg-slate-800/50 rounded-lg border border-slate-700">📱 <strong>Mobile Ready</strong><br><span class="text-slate-500">Accesso QR Code</span></div>
+                <div class="p-3 bg-slate-800/50 rounded-lg border border-slate-700">📑 <strong>Paperless</strong><br><span class="text-slate-500">Archivio PDF</span></div>
             </div>
         </section>
 
         <section class="mb-20">
-            <h2 class="text-4xl font-bold text-center mb-12 text-white">Potenza e Controllo in 20+ Funzioni</h2>
+            <h2 class="text-4xl font-bold text-center mb-12 text-white italic tracking-tighter">Potenza e Controllo in 20+ Funzioni</h2>
             <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
                 <div class="feature-card p-5 rounded-lg text-center">
                     <i class="fas fa-calendar-check text-indigo-400 text-2xl mb-2"></i>
@@ -194,26 +146,78 @@
             </div>
         </section>
 
+        <div class="w-full border-t border-slate-700/50 mb-10"></div>
+        <div class="text-center mb-12">
+            <h2 class="text-4xl font-black text-white uppercase tracking-tighter">Guida all'Installazione</h2>
+            <p class="text-indigo-400 font-semibold mt-2">CONFIGURA IL SOFTWARE SUL TUO DISPOSITIVO</p>
+        </div>
+
+        <section class="grid md:grid-cols-2 gap-10 mb-20">
+            <div class="space-y-6">
+                <h2 class="text-3xl font-bold flex items-center text-white">
+                    <i class="fab fa-windows mr-3 text-blue-400"></i> Windows (Automatico)
+                </h2>
+                <p class="text-slate-400">Metodo consigliato tramite installer dedicato.</p>
+                <div class="bg-slate-800 p-6 rounded-2xl border border-slate-700 space-y-4">
+                    <div class="flex items-start">
+                        <span class="step-number mt-1 mr-3">1</span>
+                        <div>
+                            <p>Scarica l'installer:</p>
+                            <a href="https://github.com/Renato-4132/Casa-Facile/raw/main/C.F.Win.Installer.zip" class="btn-download">
+                                <i class="fas fa-file-archive mr-2"></i> Scarica .zip
+                            </a>
+                        </div>
+                    </div>
+                    <div class="flex items-start">
+                        <span class="step-number mt-1 mr-3">2</span>
+                        <p>Estrai ed esegui il file EXE per la configurazione automatica.</p>
+                    </div>
+                    <div class="flex items-start pt-2 border-t border-slate-700">
+                        <span class="step-number mt-1 mr-3 bg-indigo-400">!</span>
+                        <p class="text-indigo-200 text-sm italic">Nota: rieseguendo l'installer potrai creare nuovi profili utente separati.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="space-y-6">
+                <h2 class="text-3xl font-bold flex items-center text-white">
+                    <i class="fas fa-terminal mr-3 text-green-400"></i> Manuale / Sorgente
+                </h2>
+                <p class="text-slate-400">Per Linux, MacOS o utenti avanzati.</p>
+                <div class="warning-box mb-4 text-sm">
+                    <strong>Prerequisito:</strong> Python 3.13+ (ricordati "Add Python to PATH").
+                </div>
+                <div class="bg-slate-800 p-6 rounded-2xl border border-slate-700 space-y-4 text-sm">
+                    <p>Procedura da riga di comando:</p>
+                    <ol class="list-decimal list-inside space-y-2 text-slate-300 font-light">
+                        <li>Crea una cartella dedicata per il progetto.</li>
+                        <li>Inserisci il file <span class="text-indigo-400">Casa Facile.pyw</span> all'interno.</li>
+                    </ol>
+                    <div class="code-box text-xs mt-2 italic">pip install tkcalendar google-genai requests segno pypiwin32</div>
+                </div>
+            </div>
+        </section>
+
         <section class="space-y-10">
-            <h2 class="text-4xl font-bold text-center text-white">Video Demo & Sviluppo</h2>
+            <h2 class="text-4xl font-bold text-center text-white">Video Demo</h2>
             <div class="video-container shadow-2xl">
-                <video controls autoplay loop muted>
+                <video controls autoplay loop muted shadow-xl>
                     <source src="https://github.com/Renato-4132/Casa-Facile/raw/main/Casa-Facile.mp4" type="video/mp4">
                     Il tuo browser non supporta il tag video.
                 </video>
             </div>
-            <div class="text-center">
-                <a href="https://github.com/Renato-4132/Casa-Facile" target="_blank" class="inline-flex items-center px-8 py-4 bg-indigo-600 hover:bg-indigo-700 text-white font-bold rounded-full transition-colors duration-300">
-                    <i class="fab fa-github mr-3 text-2xl"></i> Esplora la Repository su GitHub
+            <div class="text-center mt-12">
+                <a href="https://github.com/Renato-4132/Casa-Facile" target="_blank" class="inline-flex items-center px-10 py-5 bg-indigo-600 hover:bg-indigo-700 text-white font-bold rounded-full transition-all">
+                    <i class="fab fa-github mr-3 text-2xl"></i> Repository GitHub Ufficiale
                 </a>
             </div>
         </section>
 
     </main>
 
-    <footer class="py-8 text-center text-slate-500 border-t border-slate-800 mt-10 text-sm">
-        <p>Supporto Tecnico: <a href="mailto:helpcasafacilepro@gmail.com" class="text-indigo-400">helpcasafacilepro@gmail.com</a></p>
-        <p class="mt-2">Casa Facile Pro 2026 - Licenza MIT</p>
+    <footer class="py-8 text-center text-slate-500 border-t border-slate-800 mt-10 text-xs">
+        <p>Supporto: <a href="mailto:helpcasafacilepro@gmail.com" class="text-indigo-400">helpcasafacilepro@gmail.com</a></p>
+        <p class="mt-2 tracking-widest uppercase italic font-bold">Casa Facile Pro 2026 - Licenza MIT</p>
     </footer>
 
 </body>

@@ -3,7 +3,7 @@
 
 # 🏠 Casa Facile Pro 2026
 
-![Visite](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FRenato-4132%2FCasa-Facile&count_bg=%234F46E5&title_bg=%231E293B&icon=&icon_color=%23E7E7E7&title=VISITE+TOTALI&edge_flat=false)
+![Visite](https://visitor-badge.laobi.icu/badge?page_id=Renato-4132.Casa-Facile&left_text=VISITE%20TOTALI&color=4f46e5)
 ![Forks](https://img.shields.io/github/forks/Renato-4132/Casa-Facile?style=flat-square&color=blue)
 ![Stars](https://img.shields.io/github/stars/Renato-4132/Casa-Facile?style=flat-square&color=yellow)
 

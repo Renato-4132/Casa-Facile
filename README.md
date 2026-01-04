@@ -1,4 +1,4 @@
-# 🏠 CASA FACILE PRO 2026  [![Sito Web](https://img.shields.io/badge/SITO_UFFICIALE-VISITA-4f46e5?style=for-the-badge&logo=google-chrome&logoColor=white)](https://renato-4132.github.io/Casa-Facile/)
+### 🏠 CASA FACILE PRO [![Sito Web](https://img.shields.io/badge/SITO_UFFICIALE-VISITA-4f46e5?style=for-the-badge&logo=google-chrome&logoColor=white)](https://renato-4132.github.io/Casa-Facile/)
 ### Il centro di comando per la tua gestione domestica, dalle spese quotidiane al risparmio intelligente.
 
 ![Anteprima](https://github.com/user-attachments/assets/d0423920-6b78-49aa-b8d7-718985454e39)
@@ -14,7 +14,7 @@
 
 ---
 
-## 🚀 L'ESSENZA DEL SOFTWARE
+### 🚀 L'ESSENZA DEL SOFTWARE
 **Casa Facile Pro** è un ecosistema **Open Source** progettato per chi vuole il controllo totale sulle proprie finanze senza rinunciare alla **Privacy**. Unisce la potenza di un software gestionale alla semplicità di un'app domestica.
 
 * 🛡️ **Zero Cloud**: I tuoi dati risiedono solo sul tuo PC.
@@ -24,7 +24,7 @@
 
 ---
 
-## 🔥 POTENZA IN 20+ FUNZIONI
+### 🔥 POTENZA IN 20+ FUNZIONI
 1.  **Calendario Heartbeat**: Vista globale dei tuoi impegni finanziari.
 2.  **Gestione Ricorrenze**: Automatizza le uscite fisse.
 3.  **Grafici Drill-Down**: Analisi visiva profonda delle spese.
@@ -48,7 +48,7 @@
 
 ---
 
-### 📺 [Guarda il Video Dimostrativo (MP4)](https://github.com/Renato-4132/Casa-Facile/raw/main/Casa-Facile.mp4)
+### 📺 [Guarda il Video Dimostrativo)](https://github.com/Renato-4132/Casa-Facile/raw/main/Casa-Facile.mp4)
 📩 ASSISTENZA TECNICA
 
 Per bug, suggerimenti o supporto: helpcasafacilepro@gmail.com
@@ -61,7 +61,7 @@ Metodo consigliato per utenti Windows.
 2. Estrai ed esegui il file EXE.
 > **Nota:** Rieseguendo l'installer potrai creare nuovi profili utente separati.
 
-### 🟩 Manuale / Sorgente (Tutti i SO)
+### 🟩 Manuale (Tutti i SO)
 **Prerequisito:** Python 3.13+.
 > ⚠️ **IMPORTANTE:** Durante l'installazione di Python, spunta la casella **"Add Python to PATH"**.
 

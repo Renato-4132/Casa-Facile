@@ -17,15 +17,25 @@
         .warning-box { background: rgba(245, 158, 11, 0.1); border: 1px solid #f59e0b; padding: 1rem; border-radius: 0.75rem; }
         .video-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 1rem; border: 2px solid #334155; }
         .video-container video { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
-        .btn-download { background: var(--accent); color: white; padding: 10px 20px; border-radius: 8px; display: inline-flex; align-items: center; font-weight: bold; margin-top: 10px; transition: opacity 0.2s; }
+        .btn-download { background: var(--accent); color: white; padding: 10px 20px; border-radius: 8px; display: inline-flex; align-items: center; font-weight: bold; margin-top: 10px; transition: opacity 0.2s; text-decoration: none; }
         .btn-download:hover { opacity: 0.9; }
     </style>
 </head>
 <body class="antialiased">
 
     <header class="hero-gradient py-12 px-4 text-center">
-        <h1 class="text-5xl font-black text-white mb-2 tracking-tight">CASA FACILE <span class="text-indigo-500">PRO</span></h1>
+        <h1 class="text-5xl font-black text-white mb-2 tracking-tight uppercase italic">CASA FACILE <span class="text-indigo-500">PRO</span></h1>
         <p class="text-lg text-slate-400 mb-6">Il centro di comando per la tua gestione domestica, dalle spese quotidiane al risparmio intelligente.</p>
+        
+        <div class="flex flex-wrap justify-center gap-2 mb-8">
+            <img src="https://img.shields.io/badge/Windows-✔️-blue?logo=windows&logoColor=white" alt="Windows">
+            <img src="https://img.shields.io/badge/macOS-✔️-lightgrey?logo=apple&logoColor=white" alt="macOS">
+            <img src="https://img.shields.io/badge/Linux-✔️-yellow?logo=linux&logoColor=black" alt="Linux">
+            <img src="https://img.shields.io/badge/Python-3.13+-3776AB?logo=python&logoColor=white" alt="Python">
+            <img src="https://img.shields.io/badge/VERSIONE-9.3.7-orange" alt="Versione">
+            <img src="https://visitor-badge.laobi.icu/badge?page_id=Renato-4132.Casa-Facile&left_text=VISITE%20TOTALI&color=4f46e5" alt="Visite">
+        </div>
+
         <img src="https://github.com/user-attachments/assets/d0423920-6b78-49aa-b8d7-718985454e39" 
              alt="Anteprima Software" 
              class="w-full max-w-3xl mx-auto rounded-xl shadow-2xl border-4 border-slate-700 h-auto">
@@ -49,86 +59,26 @@
         <section class="mb-20">
             <h2 class="text-4xl font-bold text-center mb-12 text-white italic tracking-tighter">Potenza e Controllo in 20+ Funzioni</h2>
             <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
-                <div class="feature-card p-5 rounded-lg text-center">
-                    <i class="fas fa-calendar-check text-indigo-400 text-2xl mb-2"></i>
-                    <h3 class="font-bold">1. Calendario Heartbeat</h3>
-                </div>
-                <div class="feature-card p-5 rounded-lg text-center">
-                    <i class="fas fa-clock text-indigo-400 text-2xl mb-2"></i>
-                    <h3 class="font-bold">2. Gestione Ricorrenze</h3>
-                </div>
-                <div class="feature-card p-5 rounded-lg text-center">
-                    <i class="fas fa-chart-line text-indigo-400 text-2xl mb-2"></i>
-                    <h3 class="font-bold">3. Grafici Drill-Down</h3>
-                </div>
-                <div class="feature-card p-5 rounded-lg text-center">
-                    <i class="fas fa-file-archive text-indigo-400 text-2xl mb-2"></i>
-                    <h3 class="font-bold">4. Archivio PDF Movimenti</h3>
-                </div>
-                <div class="feature-card p-5 rounded-lg text-center">
-                    <i class="fas fa-bolt text-indigo-400 text-2xl mb-2"></i>
-                    <h3 class="font-bold">5. Monitor Utenze</h3>
-                </div>
-                <div class="feature-card p-5 rounded-lg text-center">
-                    <i class="fas fa-hourglass-half text-indigo-400 text-2xl mb-2"></i>
-                    <h3 class="font-bold">6. Simulatore Risparmio</h3>
-                </div>
-                <div class="feature-card p-5 rounded-lg text-center">
-                    <i class="fas fa-magic text-indigo-400 text-2xl mb-2"></i>
-                    <h3 class="font-bold">7. Proiezione 31/12</h3>
-                </div>
-                <div class="feature-card p-5 rounded-lg text-center">
-                    <i class="fas fa-wifi text-indigo-400 text-2xl mb-2"></i>
-                    <h3 class="font-bold">8. Webserver Wi-Fi</h3>
-                </div>
-                <div class="feature-card p-5 rounded-lg text-center">
-                    <i class="fas fa-shopping-cart text-indigo-400 text-2xl mb-2"></i>
-                    <h3 class="font-bold">9. Confronto Prezzi Spesa</h3>
-                </div>
-                <div class="feature-card p-5 rounded-lg text-center">
-                    <i class="fas fa-calculator text-indigo-400 text-2xl mb-2"></i>
-                    <h3 class="font-bold">10. Ammortamento Mutui</h3>
-                </div>
-                <div class="feature-card p-5 rounded-lg text-center">
-                    <i class="fas fa-qrcode text-indigo-400 text-2xl mb-2"></i>
-                    <h3 class="font-bold">11. Generatore QR Code</h3>
-                </div>
-                <div class="feature-card p-5 rounded-lg text-center">
-                    <i class="fas fa-save text-indigo-400 text-2xl mb-2"></i>
-                    <h3 class="font-bold">12. Backup JSON Locale</h3>
-                </div>
-                <div class="feature-card p-5 rounded-lg text-center">
-                    <i class="fas fa-address-book text-indigo-400 text-2xl mb-2"></i>
-                    <h3 class="font-bold">13. Rubrica Vcard/Android</h3>
-                </div>
-                <div class="feature-card p-5 rounded-lg text-center">
-                    <i class="fas fa-print text-indigo-400 text-2xl mb-2"></i>
-                    <h3 class="font-bold">14. Stampa Report PDF</h3>
-                </div>
-                <div class="feature-card p-5 rounded-lg text-center">
-                    <i class="fas fa-university text-indigo-400 text-2xl mb-2"></i>
-                    <h3 class="font-bold">15. Saldo Bancario Reale</h3>
-                </div>
-                <div class="feature-card p-5 rounded-lg text-center">
-                    <i class="fas fa-search text-indigo-400 text-2xl mb-2"></i>
-                    <h3 class="font-bold">16. Ricerca Multi-Filtro</h3>
-                </div>
-                <div class="feature-card p-5 rounded-lg text-center">
-                    <i class="fas fa-users-cog text-indigo-400 text-2xl mb-2"></i>
-                    <h3 class="font-bold">17. Profili Multi-Utente</h3>
-                </div>
-                <div class="feature-card p-5 rounded-lg text-center">
-                    <i class="fas fa-user-shield text-indigo-400 text-2xl mb-2"></i>
-                    <h3 class="font-bold">18. Sicurezza Password</h3>
-                </div>
-                <div class="feature-card p-5 rounded-lg text-center">
-                    <i class="fas fa-file-export text-indigo-400 text-2xl mb-2"></i>
-                    <h3 class="font-bold">19. Esportazione Stampa TXT</h3>
-                </div>
-                <div class="feature-card p-5 rounded-lg text-center">
-                    <i class="fas fa-layer-group text-indigo-400 text-2xl mb-2"></i>
-                    <h3 class="font-bold">20. Aggregazione Categorie</h3>
-                </div>
+                <div class="feature-card p-5 rounded-lg text-center"><i class="fas fa-calendar-check text-indigo-400 text-2xl mb-2"></i><h3 class="font-bold text-sm">1. Calendario Heartbeat</h3></div>
+                <div class="feature-card p-5 rounded-lg text-center"><i class="fas fa-clock text-indigo-400 text-2xl mb-2"></i><h3 class="font-bold text-sm">2. Gestione Ricorrenze</h3></div>
+                <div class="feature-card p-5 rounded-lg text-center"><i class="fas fa-chart-line text-indigo-400 text-2xl mb-2"></i><h3 class="font-bold text-sm">3. Grafici Drill-Down</h3></div>
+                <div class="feature-card p-5 rounded-lg text-center"><i class="fas fa-file-archive text-indigo-400 text-2xl mb-2"></i><h3 class="font-bold text-sm">4. Archivio PDF Movimenti</h3></div>
+                <div class="feature-card p-5 rounded-lg text-center"><i class="fas fa-bolt text-indigo-400 text-2xl mb-2"></i><h3 class="font-bold text-sm">5. Monitor Utenze</h3></div>
+                <div class="feature-card p-5 rounded-lg text-center"><i class="fas fa-hourglass-half text-indigo-400 text-2xl mb-2"></i><h3 class="font-bold text-sm">6. Simulatore Risparmio</h3></div>
+                <div class="feature-card p-5 rounded-lg text-center"><i class="fas fa-magic text-indigo-400 text-2xl mb-2"></i><h3 class="font-bold text-sm">7. Proiezione 31/12</h3></div>
+                <div class="feature-card p-5 rounded-lg text-center"><i class="fas fa-wifi text-indigo-400 text-2xl mb-2"></i><h3 class="font-bold text-sm">8. Webserver Wi-Fi</h3></div>
+                <div class="feature-card p-5 rounded-lg text-center"><i class="fas fa-shopping-cart text-indigo-400 text-2xl mb-2"></i><h3 class="font-bold text-sm">9. Confronto Prezzi Spesa</h3></div>
+                <div class="feature-card p-5 rounded-lg text-center"><i class="fas fa-calculator text-indigo-400 text-2xl mb-2"></i><h3 class="font-bold text-sm">10. Ammortamento Mutui</h3></div>
+                <div class="feature-card p-5 rounded-lg text-center"><i class="fas fa-qrcode text-indigo-400 text-2xl mb-2"></i><h3 class="font-bold text-sm">11. Generatore QR Code</h3></div>
+                <div class="feature-card p-5 rounded-lg text-center"><i class="fas fa-save text-indigo-400 text-2xl mb-2"></i><h3 class="font-bold text-sm">12. Backup JSON Locale</h3></div>
+                <div class="feature-card p-5 rounded-lg text-center"><i class="fas fa-address-book text-indigo-400 text-2xl mb-2"></i><h3 class="font-bold text-sm">13. Rubrica Vcard/Android</h3></div>
+                <div class="feature-card p-5 rounded-lg text-center"><i class="fas fa-print text-indigo-400 text-2xl mb-2"></i><h3 class="font-bold text-sm">14. Stampa Report PDF</h3></div>
+                <div class="feature-card p-5 rounded-lg text-center"><i class="fas fa-university text-indigo-400 text-2xl mb-2"></i><h3 class="font-bold text-sm">15. Saldo Bancario Reale</h3></div>
+                <div class="feature-card p-5 rounded-lg text-center"><i class="fas fa-search text-indigo-400 text-2xl mb-2"></i><h3 class="font-bold text-sm">16. Ricerca Multi-Filtro</h3></div>
+                <div class="feature-card p-5 rounded-lg text-center"><i class="fas fa-users-cog text-indigo-400 text-2xl mb-2"></i><h3 class="font-bold text-sm">17. Profili Multi-Utente</h3></div>
+                <div class="feature-card p-5 rounded-lg text-center"><i class="fas fa-user-shield text-indigo-400 text-2xl mb-2"></i><h3 class="font-bold text-sm">18. Sicurezza Password</h3></div>
+                <div class="feature-card p-5 rounded-lg text-center"><i class="fas fa-file-export text-indigo-400 text-2xl mb-2"></i><h3 class="font-bold text-sm">19. Esportazione Stampa TXT</h3></div>
+                <div class="feature-card p-5 rounded-lg text-center"><i class="fas fa-layer-group text-indigo-400 text-2xl mb-2"></i><h3 class="font-bold text-sm">20. Aggregazione Categorie</h3></div>
             </div>
         </section>
 
@@ -154,10 +104,9 @@
 
         <section class="grid md:grid-cols-2 gap-10 mb-20">
             <div class="space-y-6">
-                <h2 class="text-3xl font-bold flex items-center text-white">
+                <h2 class="text-3xl font-bold flex items-center text-white italic">
                     <i class="fab fa-windows mr-3 text-blue-400"></i> Windows (Automatico)
                 </h2>
-                <p class="text-slate-400">Metodo consigliato tramite installer dedicato.</p>
                 <div class="bg-slate-800 p-6 rounded-2xl border border-slate-700 space-y-4">
                     <div class="flex items-start">
                         <span class="step-number mt-1 mr-3">1</span>
@@ -180,30 +129,29 @@
             </div>
 
             <div class="space-y-6">
-                <h2 class="text-3xl font-bold flex items-center text-white">
+                <h2 class="text-3xl font-bold flex items-center text-white italic">
                     <i class="fas fa-terminal mr-3 text-green-400"></i> Manuale / Sorgente
                 </h2>
-                <p class="text-slate-400">Per Linux, MacOS o utenti avanzati.</p>
-                <div class="warning-box mb-4 text-sm">
-                    <strong>Prerequisito:</strong> Python 3.13+ (ricordati "Add Python to PATH").
+                <div class="warning-box mb-4 text-[11px]">
+                    <strong>Prerequisito Python:</strong> Durante l'installazione (v3.13+), è fondamentale spuntare la voce <b class="text-orange-400">"Add Python to PATH"</b>.
                 </div>
                 <div class="bg-slate-800 p-6 rounded-2xl border border-slate-700 space-y-4 text-sm">
-                    <p>Procedura da riga di comando:</p>
-                    <ol class="list-decimal list-inside space-y-2 text-slate-300 font-light">
-                        <li>Crea una cartella dedicata per il progetto.</li>
-                        <li>Inserisci il file <span class="text-indigo-400">Casa Facile.pyw</span> all'interno.</li>
+                    <p>Procedura per codice sorgente:</p>
+                    <ol class="list-decimal list-inside space-y-2 text-slate-300 font-light text-xs">
+                        <li>Crea una cartella dedicata (<strong>il nome che darai alla cartella sarà il tuo Nome Profilo</strong>).</li>
+                        <li>Inserisci il file <span class="text-indigo-400 font-bold">Casa Facile.pyw</span> all'interno.</li>
                     </ol>
-                    <div class="code-box text-xs mt-2 italic">pip install tkcalendar google-genai requests segno pypiwin32</div>
+                    <p class="text-[10px] text-slate-500 italic mb-[-8px]">Promemoria librerie (da usare solo in caso di errori all'avvio):</p>
+                    <div class="code-box text-[10px] mt-2 italic">pip install tkcalendar google-genai requests segno pypiwin32</div>
                 </div>
             </div>
         </section>
 
-        <section class="space-y-10">
-            <h2 class="text-4xl font-bold text-center text-white">Video Demo</h2>
+        <section class="space-y-10 mb-20">
+            <h2 class="text-4xl font-bold text-center text-white italic">Video Demo</h2>
             <div class="video-container shadow-2xl">
-                <video controls autoplay loop muted shadow-xl>
+                <video controls autoplay loop muted>
                     <source src="https://github.com/Renato-4132/Casa-Facile/raw/main/Casa-Facile.mp4" type="video/mp4">
-                    Il tuo browser non supporta il tag video.
                 </video>
             </div>
             <div class="text-center mt-12">
@@ -215,9 +163,12 @@
 
     </main>
 
-    <footer class="py-8 text-center text-slate-500 border-t border-slate-800 mt-10 text-xs">
-        <p>Supporto: <a href="mailto:helpcasafacilepro@gmail.com" class="text-indigo-400">helpcasafacilepro@gmail.com</a></p>
-        <p class="mt-2 tracking-widest uppercase italic font-bold">Casa Facile Pro 2026 - Licenza MIT</p>
+    <footer class="py-8 text-center border-t border-slate-800 mt-10">
+        <div class="mb-4">
+            <p class="text-[10px] uppercase tracking-[0.2em] text-slate-500 font-bold mb-1 italic">Assistenza Tecnica</p>
+            <a href="mailto:helpcasafacilepro@gmail.com" class="text-xs text-indigo-400/80 hover:text-indigo-400">helpcasafacilepro@gmail.com</a>
+        </div>
+        <p class="text-[10px] text-slate-600 uppercase tracking-widest font-black italic">Casa Facile Pro 2026 - Licenza MIT</p>
     </footer>
 
 </body>

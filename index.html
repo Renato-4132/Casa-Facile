@@ -21,24 +21,37 @@
         .btn-download:hover { opacity: 0.9; }
     </style>
 </head>
-<body class="antialiased">
+<body class="bg-slate-950 text-slate-200">
 
-    <header class="hero-gradient py-12 px-4 text-center">
-        <h1 class="text-5xl font-black text-white mb-2 tracking-tight uppercase italic">CASA FACILE <span class="text-indigo-500">PRO</span></h1>
-        <p class="text-lg text-slate-400 mb-6">Il centro di comando per la tua gestione domestica, dalle spese quotidiane al risparmio intelligente.</p>
+    <header class="relative py-16 px-4 text-center bg-slate-950 overflow-hidden">
+        <div class="absolute top-0 left-1/2 -translate-x-1/2 w-3/4 h-full bg-indigo-500/5 blur-[120px] pointer-events-none"></div>
+
+        <div class="relative z-10">
+            <h1 class="text-5xl md:text-7xl font-black text-white mb-4 tracking-tighter uppercase italic">
+                CASA FACILE <span class="text-indigo-500 drop-shadow-[0_0_15px_rgba(99,102,241,0.6)]">PRO</span>
+            </h1>
         
-        <div class="flex flex-wrap justify-center gap-2 mb-8">
-            <img src="https://img.shields.io/badge/Windows-✔️-blue?logo=windows&logoColor=white" alt="Windows">
-            <img src="https://img.shields.io/badge/macOS-✔️-lightgrey?logo=apple&logoColor=white" alt="macOS">
-            <img src="https://img.shields.io/badge/Linux-✔️-yellow?logo=linux&logoColor=black" alt="Linux">
-            <img src="https://img.shields.io/badge/Python-3.13+-3776AB?logo=python&logoColor=white" alt="Python">
-            <img src="https://img.shields.io/badge/VERSIONE-9.5-orange" alt="Versione">
-            <img src="https://visitor-badge.laobi.icu/badge?page_id=Renato-4132.Casa-Facile&left_text=VISITE%20TOTALI&color=4f46e5" alt="Visite">
-        </div>
+            <p class="text-lg md:text-xl text-slate-400 mb-8 max-w-2xl mx-auto leading-relaxed font-light">
+                Il centro di comando per la tua gestione domestica, <br class="hidden md:block">
+                dalle <span class="text-slate-200">spese quotidiane</span> al <span class="text-slate-200">risparmio intelligente</span>.
+            </p>
 
-        <img src="https://github.com/user-attachments/assets/d0423920-6b78-49aa-b8d7-718985454e39" 
-             alt="Anteprima Software" 
-             class="w-full max-w-3xl mx-auto rounded-xl shadow-2xl border-4 border-slate-700 h-auto">
+            <div class="flex flex-wrap justify-center gap-3 mb-12 opacity-90 hover:opacity-100 transition-opacity">
+                <img src="https://img.shields.io/badge/Windows-✔️-blue?logo=windows&logoColor=white" alt="Windows" class="h-6">
+                <img src="https://img.shields.io/badge/macOS-✔️-lightgrey?logo=apple&logoColor=white" alt="macOS" class="h-6">
+                <img src="https://img.shields.io/badge/Linux-✔️-yellow?logo=linux&logoColor=black" alt="Linux" class="h-6">
+                <img src="https://img.shields.io/badge/Python-3.13+-3776AB?logo=python&logoColor=white" alt="Python" class="h-6">
+                <img src="https://img.shields.io/badge/VERSIONE-9.5-orange" alt="Versione" class="h-6">
+                <img src="https://visitor-badge.laobi.icu/badge?page_id=Renato-4132.Casa-Facile&left_text=VISITE%20TOTALI&color=4f46e5" alt="Visite" class="h-6">
+            </div>
+
+            <div class="relative max-w-4xl mx-auto group">
+                <div class="absolute -inset-1 bg-gradient-to-r from-indigo-500 to-slate-800 rounded-2xl blur opacity-25 group-hover:opacity-50 transition duration-1000"></div>
+                <img src="https://github.com/user-attachments/assets/d0423920-6b78-49aa-b8d7-718985454e39" 
+                     alt="Anteprima Software" 
+                     class="relative w-full rounded-xl shadow-2xl border border-slate-700/50 bg-slate-900 h-auto transform transition duration-500 hover:scale-[1.01]">
+            </div>
+        </div>
     </header>
 
     <main class="max-w-6xl mx-auto px-4 py-12">
@@ -179,6 +192,3 @@
 
 </body>
 </html>
-
-
-

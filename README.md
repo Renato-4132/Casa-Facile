@@ -16,7 +16,7 @@
 ---
 
 ### 🚀 L'ESSENZA DEL SOFTWARE
-**Casa Facile Pro** è un ecosistema **Open Source** progettato per chi vuole il controllo totale sulle proprie finanze senza rinunciare alla **Privacy**. Unisce la potenza di un software gestionale alla semplicità di un'app domestica.
+**Casa Facile Pro** è un ecosistema **Open Source** Gratuito, progettato per chi vuole il controllo totale sulle proprie finanze senza rinunciare alla **Privacy**. Unisce la potenza di un software gestionale alla semplicità di un'app domestica.
 
 * 🛡️ **Zero Cloud**: I tuoi dati risiedono solo sul tuo PC.
 * 💰 **Smart Saving**: Algoritmi per il confronto prezzi e risparmio.

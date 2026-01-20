@@ -37,10 +37,10 @@
 9.  **Confronto Prezzi**: Ottimizza la tua spesa alimentare.
 10. **Ammortamento Mutui**: Calcola rate e interessi reali.
 11. **Generatore QR Code**: Configura il server con un colpo d'occhio.
-12. **Backup JSON Locale**: Dati sempre esportabili e sicuri.
+12. **Configurazione & Backup**: Configurabile - Dati sempre esportabili e sicuri.
 13. **Rubrica Vcard/Android**: Esporta i contatti per il tuo smartphone.
-14. **Stampa Report PDF**: Documentazione professionale pronta all'uso.
-15. **Saldo Bancario Reale**: Riconciliazione immediata dei conti.
+14. **Stampa Report**: Documentazione professionale pronta all'uso.
+15. **Saldo Bancario**: Riconciliazione immediata dei conti.
 16. **Ricerca Multi-Filtro**: Trova ogni centesimo in un istante.
 17. **Profili Multi-Utente**: Gestisci più persone con database separati.
 18. **Sicurezza Password**: Accesso protetto e crittografato.

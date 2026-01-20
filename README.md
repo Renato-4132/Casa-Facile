@@ -33,12 +33,12 @@
 5.  **Monitor Utenze**: Tieni d'occhio i consumi di luce, gas e acqua.
 6.  **Simulatore Risparmio**: Calcola come raggiungere i tuoi obiettivi.
 7.  **Proiezione 31/12**: Prevedi il saldo a fine anno.
-8.  **Webserver Wi-Fi**: Consulta i dati dallo smartphone in rete locale.
+8.  **Webserver Wi-Fi**: Consulta i dati dallo smartphone in rete locale/remota.
 9.  **Confronto Prezzi**: Ottimizza la tua spesa alimentare.
-10. **Ammortamento Mutui**: Calcola rate e interessi reali.
-11. **Generatore QR Code**: Configura il server con un colpo d'occhio.
+10. **Ammortamento Mutui**: Calcola rate e interessi reali - Piani Ammortamento.
+11. **Generatore QR Code**: Configura i promemoria con un colpo d'occhio.
 12. **Configurazione & Backup**: Configurabile - Dati sempre esportabili e sicuri.
-13. **Rubrica Vcard/Android**: Esporta i contatti per il tuo smartphone.
+13. **Rubrica Vcard/Android**: Esporta/importa i contatti dal tuo smartphone.
 14. **Stampa Report**: Documentazione professionale pronta all'uso.
 15. **Saldo Bancario**: Riconciliazione immediata dei conti.
 16. **Ricerca Multi-Filtro**: Trova ogni centesimo in un istante.

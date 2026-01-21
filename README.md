@@ -27,7 +27,7 @@
 
 ### 🔥 POTENZA IN 20+ FUNZIONI
 1.  **Calendario Heartbeat**: Vista globale dei tuoi impegni finanziari.
-2.  **Gestione Ricorrenze**: Automatizza le uscite fisse.
+2.  **Gestione Ricorrenze**: Automatizza i movimenti fissi.
 3.  **Grafici Drill-Down**: Analisi visiva profonda delle spese.
 4.  **Archivio PDF**: Collega i documenti ai movimenti.
 5.  **Monitor Utenze**: Tieni d'occhio i consumi di luce, gas e acqua.

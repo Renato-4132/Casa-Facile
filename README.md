@@ -3,6 +3,7 @@
 ### Il centro di comando per la tua gestione domestica, dalle spese quotidiane al risparmio intelligente.
 
 ![Anteprima](https://github.com/user-attachments/assets/d0423920-6b78-49aa-b8d7-718985454e39)
+<img width="1282" height="686" alt="main" src="https://github.com/user-attachments/assets/e8082447-761b-4a28-8050-40a1a46382b5" />
 
 ---
 

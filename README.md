@@ -2,7 +2,8 @@
 ## 🏠 CASA FACILE PRO [![Sito Web](https://img.shields.io/badge/SITO_UFFICIALE-VISITA-4f46e5?style=flat-square&logo=google-chrome&logoColor=white)](https://renato-4132.github.io/Casa-Facile/)
 ### Il centro di comando per la tua gestione domestica, dalle spese quotidiane al risparmio intelligente.
 
-<img width="1282" height="686" alt="main" src="https://github.com/user-attachments/assets/62c30aa9-219d-433c-99eb-780ce15c023d" />
+![main1](https://github.com/user-attachments/assets/0831b446-2ee9-47e3-86c1-ce39d5e692e4)
+
 
 ---
 

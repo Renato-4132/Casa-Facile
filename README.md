@@ -4,7 +4,6 @@
 
 <img width="1283" height="655" alt="main categorie" src="https://github.com/user-attachments/assets/3534e37e-06dc-4c19-87dd-cf62ad2f9aa2" />
 
--![Progetto senza titolo](https://github.com/user-attachments/assets/05ef427f-951b-4bad-96a7-eef9308cac3e)
 --
 
 ![Windows](https://img.shields.io/badge/Windows-✔️-blue?style=flat-square&logo=windows&logoColor=white)

@@ -4,7 +4,7 @@
 
 <img width="1283" height="655" alt="main categorie" src="https://github.com/user-attachments/assets/3534e37e-06dc-4c19-87dd-cf62ad2f9aa2" />
 
---
+---
 
 ![Windows](https://img.shields.io/badge/Windows-✔️-blue?style=flat-square&logo=windows&logoColor=white)
 ![macOS](https://img.shields.io/badge/macOS-✔️-lightgrey?style=flat-square&logo=apple&logoColor=white)

@@ -50,38 +50,6 @@ Nota Tecnica sulla Sync: Casa Facile Pro evita deliberatamente le API bancarie (
 20. **Aggregazione Categorie**: Raggruppa le spese per aree tematiche.
 
 ---
-🛡️ PERCHÉ NON USIAMO LA SINCRONIZZAZIONE BANCARIA?
-
-Molti ci chiedono perché Casa Facile Pro non si colleghi direttamente al conto corrente.  
-La risposta è semplice: la tua sicurezza e indipendenza non hanno prezzo.
-
-    🚫 Nessun Costo Nascosto: I servizi di aggregazione bancaria (come GoCardless o Tink) impongono canoni mensili
-       elevati o costi per singola transazione. Per mantenere il software 100% Gratuito e Open Source, 
-       abbiamo scelto di non gravare sugli utenti con abbonamenti forzati.
-
-    🔒 Privacy Totale (Zero Intermediari): La sincronizzazione automatica obbliga a far passare i tuoi dati 
-       finanziari attraverso server di terze parti. Con Casa Facile Pro, nessuno (nemmeno noi) può vedere quanto
-       spendi o dove acquisti. I tuoi dati restano sul tuo PC.
-
-    ⚠️ Protezione contro il "Data Leak": Eliminando il ponte tra banca e software, annulliamo il rischio che le 
-       tue credenziali o i tuoi saldi vengano esposti in caso di attacchi hacker ai server degli aggregatori.
-
-    🧠 Consiglio per l'uso: Per una gestione veloce, utilizza la funzione di Saldo Bancario per riconciliare 
-       i conti manualmente o sfrutta l'inserimento rapido. Il controllo manuale è il primo passo verso un
-       risparmio consapevole!  
-
-🌐 Sicurezza Accesso Remoto (VPN)
-
-Se utilizzi la funzione Webserver Wi-Fi per consultare i tuoi dati fuori casa, la tua sicurezza è la nostra priorità.
-
-    🔑 Evita il Port Forwarding: Non aprire mai porte sul tuo router per esporre il software su internet.
-      È un rischio enorme che espone il tuo PC a scansioni di bot e malintenzionati.
-
-    🛡️ Usa una VPN: Per accedere ai dati da remoto, collegati prima alla tua rete domestica tramite una VPN
-      (es. WireGuard, Tailscale, OpenVPN o IPSTATICO.PRO).
-
-    🔒 Tunnel Cifrato: Un tunnel VPN è l'unico modo sicuro per garantire che i tuoi dati rimangano privati 
-       e criptati durante il transito dal PC allo smartphone.
        
 ### 📺 [Guarda il Video Dimostrativo)](https://github.com/Renato-4132/Casa-Facile/raw/main/Casa-Facile.mp4)
 📩 ASSISTENZA TECNICA

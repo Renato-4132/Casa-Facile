@@ -93,3 +93,11 @@ Metodo consigliato per utenti Windows.
 
 ```bash
 pip install tkcalendar google-genai requests segno pypiwin32
+
+---
+
+### 🌐 SCOPRI DI PIÙ
+
+[![SITO UFFICIALE](https://img.shields.io/badge/VAI_AL_SITO_DI_CASA_FACILE_PRO-4f46e5?style=for-the-badge&logo=google-chrome&logoColor=white)](https://renato-4132.github.io/Casa-Facile/)
+
+---

@@ -68,8 +68,13 @@ La risposta è semplice: la tua sicurezza e indipendenza non hanno prezzo.
 
     🧠 Consiglio per l'uso: Per una gestione veloce, utilizza la funzione di Saldo Bancario per riconciliare 
        i conti manualmente o sfrutta l'inserimento rapido. Il controllo manuale è il primo passo verso un
-       risparmio consapevole!
+       risparmio consapevole!  
+       
+    🌐 Accesso remoto e VPN: Se utilizzi il Webserver per consultare i dati fuori casa, ti consigliamo caldamente
+       l'uso di una VPN. Evita di aprire porte sul router: un tunnel cifrato è l'unico modo per garantire che i 
+       tuoi dati rimangano privati durante il transito.
 
+       
 ### 📺 [Guarda il Video Dimostrativo)](https://github.com/Renato-4132/Casa-Facile/raw/main/Casa-Facile.mp4)
 📩 ASSISTENZA TECNICA
 

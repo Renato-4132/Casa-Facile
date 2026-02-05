@@ -69,11 +69,19 @@ La risposta è semplice: la tua sicurezza e indipendenza non hanno prezzo.
     🧠 Consiglio per l'uso: Per una gestione veloce, utilizza la funzione di Saldo Bancario per riconciliare 
        i conti manualmente o sfrutta l'inserimento rapido. Il controllo manuale è il primo passo verso un
        risparmio consapevole!  
-       
-    🌐 Accesso remoto e VPN: Se utilizzi il Webserver per consultare i dati fuori casa, ti consigliamo caldamente
-       l'uso di una VPN. Evita di aprire porte sul router: un tunnel cifrato è l'unico modo per garantire che i 
-       tuoi dati rimangano privati durante il transito.
 
+🌐 Sicurezza Accesso Remoto (VPN)
+
+Se utilizzi la funzione Webserver Wi-Fi per consultare i tuoi dati fuori casa, la tua sicurezza è la nostra priorità.
+
+    🔑 Evita il Port Forwarding: Non aprire mai porte sul tuo router per esporre il software su internet.
+      È un rischio enorme che espone il tuo PC a scansioni di bot e malintenzionati.
+
+    🛡️ Usa una VPN: Per accedere ai dati da remoto, collegati prima alla tua rete domestica tramite una VPN
+      (es. WireGuard, Tailscale, OpenVPN o IPSTATICO.PRO).
+
+    🔒 Tunnel Cifrato: Un tunnel VPN è l'unico modo sicuro per garantire che i tuoi dati rimangano privati 
+       e criptati durante il transito dal PC allo smartphone.
        
 ### 📺 [Guarda il Video Dimostrativo)](https://github.com/Renato-4132/Casa-Facile/raw/main/Casa-Facile.mp4)
 📩 ASSISTENZA TECNICA

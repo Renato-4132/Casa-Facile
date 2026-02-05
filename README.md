@@ -52,7 +52,7 @@ Nota Tecnica sulla Sync: Casa Facile Pro evita deliberatamente le API bancarie (
 ---
 🛡️ PERCHÉ NON USIAMO LA SINCRONIZZAZIONE BANCARIA?
 
-Molti ci chiedono perché Casa Facile Pro non si colleghi direttamente al conto corrente.
+Molti ci chiedono perché Casa Facile Pro non si colleghi direttamente al conto corrente.  
 La risposta è semplice: la tua sicurezza e indipendenza non hanno prezzo.
 
     🚫 Nessun Costo Nascosto: I servizi di aggregazione bancaria (come GoCardless o Tink) impongono canoni mensili

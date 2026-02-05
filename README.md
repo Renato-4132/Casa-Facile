@@ -54,13 +54,20 @@ Nota Tecnica sulla Sync: Casa Facile Pro evita deliberatamente le API bancarie (
 
 Molti ci chiedono perché Casa Facile Pro non si colleghi direttamente al conto corrente. La risposta è semplice: la tua sicurezza e indipendenza non hanno prezzo.
 
-    🚫 Nessun Costo Nascosto: I servizi di aggregazione bancaria (come GoCardless o Tink) impongono canoni mensili elevati o costi per singola transazione. Per mantenere il software 100% Gratuito e Open Source, abbiamo scelto di non gravare sugli utenti con abbonamenti forzati.
+    🚫 Nessun Costo Nascosto: I servizi di aggregazione bancaria (come GoCardless o Tink) impongono canoni mensili
+       elevati o costi per singola transazione. Per mantenere il software 100% Gratuito e Open Source, 
+       abbiamo scelto di non gravare sugli utenti con abbonamenti forzati.
 
-    🔒 Privacy Totale (Zero Intermediari): La sincronizzazione automatica obbliga a far passare i tuoi dati finanziari attraverso server di terze parti. Con Casa Facile Pro, nessuno (nemmeno noi) può vedere quanto spendi o dove acquisti. I tuoi dati restano sul tuo PC.
+    🔒 Privacy Totale (Zero Intermediari): La sincronizzazione automatica obbliga a far passare i tuoi dati 
+       finanziari attraverso server di terze parti. Con Casa Facile Pro, nessuno (nemmeno noi) può vedere quanto
+       spendi o dove acquisti. I tuoi dati restano sul tuo PC.
 
-    ⚠️ Protezione contro il "Data Leak": Eliminando il ponte tra banca e software, annulliamo il rischio che le tue credenziali o i tuoi saldi vengano esposti in caso di attacchi hacker ai server degli aggregatori.
+    ⚠️ Protezione contro il "Data Leak": Eliminando il ponte tra banca e software, annulliamo il rischio che le 
+       tue credenziali o i tuoi saldi vengano esposti in caso di attacchi hacker ai server degli aggregatori.
 
-    🧠 Consiglio per l'uso: Per una gestione veloce, utilizza la funzione di Saldo Bancario per riconciliare i conti manualmente o sfrutta l'inserimento rapido. Il controllo manuale è il primo passo verso un risparmio consapevole!
+    🧠 Consiglio per l'uso: Per una gestione veloce, utilizza la funzione di Saldo Bancario per riconciliare 
+       i conti manualmente o sfrutta l'inserimento rapido. Il controllo manuale è il primo passo verso un
+       risparmio consapevole!
 
 ### 📺 [Guarda il Video Dimostrativo)](https://github.com/Renato-4132/Casa-Facile/raw/main/Casa-Facile.mp4)
 📩 ASSISTENZA TECNICA

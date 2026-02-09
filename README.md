@@ -10,7 +10,7 @@
 ![macOS](https://img.shields.io/badge/macOS-✔️-lightgrey?style=flat-square&logo=apple&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-✔️-yellow?style=flat-square&logo=linux&logoColor=black)
 ![Python](https://img.shields.io/badge/Python-3.13+-3776AB?style=flat-square&logo=python&logoColor=white)
-![Versione](https://img.shields.io/badge/VERSIONE-9.5-orange?style=flat-square)
+![Versione](https://img.shields.io/badge/VERSIONE-9.6-orange?style=flat-square)
 ![Visite](https://visitor-badge.laobi.icu/badge?page_id=Renato-4132.Casa-Facile&left_text=VISITE%20TOTALI&color=4f46e5)
 
 ---

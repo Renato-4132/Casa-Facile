@@ -27,7 +27,7 @@ Nota Tecnica sulla Sync: Casa Facile Pro evita deliberatamente le API bancarie (
 
 ---
 
-### 🔥 POTENZA IN 20+ FUNZIONI
+### 🔥 POTENZA IN 30+ FUNZIONI
 1.  **Calendario Heartbeat**: Vista globale dei tuoi impegni finanziari.
 2.  **Gestione Ricorrenze**: Automatizza i movimenti fissi.
 3.  **Grafici Drill-Down**: Analisi visiva profonda delle spese.
@@ -35,7 +35,7 @@ Nota Tecnica sulla Sync: Casa Facile Pro evita deliberatamente le API bancarie (
 5.  **Monitor Utenze**: Tieni d'occhio i consumi di luce, gas e acqua.
 6.  **Simulatore Risparmio**: Calcola come raggiungere i tuoi obiettivi.
 7.  **Proiezione 31/12**: Prevedi il saldo a fine anno.
-8.  **Webserver Wi-Fi**: Consulta i dati dallo smartphone in rete locale/remota.
+8.  **Webserver Remoto**: Consulta i dati dallo smartphone in rete locale/remota.
 9.  **Confronto Prezzi**: Ottimizza la tua spesa alimentare.
 10. **Ammortamento Mutui**: Calcola rate e interessi reali - Piani Ammortamento.
 11. **Generatore QR Code**: Configura i promemoria con un colpo d'occhio.
@@ -48,6 +48,17 @@ Nota Tecnica sulla Sync: Casa Facile Pro evita deliberatamente le API bancarie (
 18. **Sicurezza Password**: Accesso protetto e crittografato.
 19. **Esportazione TXT**: Per una lettura grezza e veloce dei dati.
 20. **Aggregazione Categorie**: Raggruppa le spese per aree tematiche.
+21. **Sincronizzazione Gmail**: Scarica e archivia in automatico le fatture dalla tua email.
+22. **Temi Personalizzabili**: Cambia l'aspetto grafico per adattare l'interfaccia al tuo stile.
+23. **Smart Info Point**: Popup rapido sul calendario per visualizzare i movimenti al passaggio del mouse.
+24. **SmartCat**: Suggerimento automatico della categoria basato sullo storico delle tue entrate e uscite.
+25. **Backup & Ripristino**: Protezione contro i crash con salvataggio automatico e ripristino dei dati.
+26. **Promemoria Categorie**: Avvisi mensili sulle spese ricorrenti dimenticate rispetto ai mesi passati.
+27. **Notifiche Auto-chiudenti**: Messaggi di conferma e avvisi che scompaiono automaticamente dopo il tempo da te prestabilito.
+28. **Auto-Iconizza**: Riduzione automatica a icona all'avvio e dopo un periodo di inattività.
+29. **Carosello Grafici**: Tour automatico degli andamenti all'avvio che si mette in pausa al movimento del mouse.
+30. **Retention Automatica**: Determina per quanti anni conservare i dati e rimuove automaticamente i più vecchi.
+31. Backup Automatico: Gestione personalizzata del numero di copie per database e documenti archiviati.
 
 ---
        

@@ -84,7 +84,7 @@ Metodo consigliato per utenti Windows.
 3. Se il software non parte, installa le librerie mancanti con questo comando:
 
 ```bash
-pip install tkcalendar google-genai requests segno pypiwin32
+pip install tkcalendar google-genai requests segno pypiwin32 cryptography
 ```
 
 ## 🌐 SCOPRI DI PIÙ [![Sito Web](https://img.shields.io/badge/SITO_UFFICIALE-VISITA-4f46e5?style=flat-square&logo=google-chrome&logoColor=white)](https://renato-4132.github.io/Casa-Facile/)

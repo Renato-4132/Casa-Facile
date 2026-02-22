@@ -3,9 +3,7 @@
 ### Il centro di comando per la tua gestione domestica, dalle spese quotidiane al risparmio intelligente.
 
 <img width="1363" height="653" alt="Main_bilancio_storico" src="https://github.com/user-attachments/assets/80830162-ae00-4c8a-84a6-8de622f82d24" />
-![Main](https://github.com/user-attachments/assets/e8d2262a-aef4-4301-8991-b55dfc190df9)
-
-
+<img width="1363" height="653" alt="Main_bilancio_storico" src="https://github.com/user-attachments/assets/da541232-06b0-4f3e-9b74-014a8246319e) />
 ---
 
 ![Windows](https://img.shields.io/badge/Windows-✔️-blue?style=flat-square&logo=windows&logoColor=white)

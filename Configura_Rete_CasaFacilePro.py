@@ -5,7 +5,7 @@ import ctypes
 import os
 """
 =============================================================================
-CONFIGURAZIONE RETE CASAFACILEPRO - SBLOCCO FIREWALL WINDOWS 
+CONFIGURAZIONE RETE CASAFACILEPRO - SBLOCCO FIREWALL WINDOWS  
 =============================================================================
 A COSA SERVE:
 Questo script autorizza CasaFacilePro a ricevere connessioni dai tuoi 

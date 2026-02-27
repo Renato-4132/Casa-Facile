@@ -63,6 +63,13 @@ Nota Tecnica sulla Sync: Casa Facile Pro evita deliberatamente le API bancarie (
 ---
        
 ### 📺 [Guarda il Video Dimostrativo)](https://github.com/Renato-4132/Casa-Facile/raw/main/Casa-Facile.mp4)
+
+📈 UN PICCOLO AIUTO PER IL PROGETTO
+
+Per capire se Casa Facile Pro piace e quanti siamo a usarlo, il software mi invia un segnale del tutto anonimo ogni volta che scarichi un aggiornamento. È solo un contatore che mi dice: "Ehi, c'è una workstation attiva qui!".
+
+Non vedrò mai chi sei, la tua mail o i tuoi dati (che restano solo sul tuo PC). Mi serve solo per sapere se sto lavorando bene e quanti siamo nella community!
+
 📩 ASSISTENZA TECNICA
 
 Per bug, suggerimenti o supporto: helpcasafacilepro@gmail.com

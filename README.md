@@ -58,8 +58,9 @@ Nota Tecnica sulla Sync: Casa Facile Pro evita deliberatamente le API bancarie (
 28. **Auto-Iconizza**: Riduzione automatica a icona all'avvio e dopo un periodo di inattività.
 29. **Carosello Grafici**: Tour automatico degli andamenti all'avvio che si mette in pausa al movimento del mouse.
 30. **Retention Automatica**: Determina per quanti anni conservare i dati e rimuove automaticamente i più vecchi.
-31. Backup Automatico: Gestione personalizzata del numero di copie per database e documenti archiviati.
-
+31. **Backup Automatico**: Gestione personalizzata del numero di copie per database e documenti archiviati.
+32. **Importazione Estratti**: Importa i movimenti da qualsiasi estratto PDF o CSV.
+33. **Analisi Finanziaria OpenAI**: Analisi completa dell' andamento finanziario.
 ---
        
 ### 📺 [Guarda il Video Dimostrativo)](https://github.com/Renato-4132/Casa-Facile/raw/main/Casa-Facile.mp4)

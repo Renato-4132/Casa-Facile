@@ -46,7 +46,7 @@ Nota Tecnica sulla Sync: Casa Facile Pro evita deliberatamente le API bancarie (
 16. **Ricerca Multi-Filtro**: Trova ogni centesimo in un istante.
 17. **Profili Multi-Utente**: Gestisci più persone con database separati.
 18. **Sicurezza Password**: Accesso protetto e crittografato.
-19. **Esportazione TXT**: Per una lettura grezza e veloce dei dati.
+19. **Esportazione TXT/PDF/STAMPA**: È possibile selezionare come salvare o stampare i dati.
 20. **Aggregazione Categorie**: Raggruppa le spese per aree tematiche.
 21. **Sincronizzazione Gmail**: Scarica e archivia in automatico le fatture dalla tua email.
 22. **Temi Personalizzabili**: Cambia l'aspetto grafico per adattare l'interfaccia al tuo stile.

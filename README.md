@@ -63,7 +63,7 @@ Nota Tecnica sulla Sync: Casa Facile Pro evita deliberatamente le API bancarie (
 33. **Analisi Finanziaria OpenAI**: Analisi completa dell' andamento finanziario.
 ---
        
-### 📺 [Guarda il Video Dimostrativo)](https://github.com/Renato-4132/Casa-Facile/raw/main/Casa-Facile.mp4)
+### 📺 [Guarda il Video](https://github.com/Renato-4132/Casa-Facile/raw/main/Casa-Facile.mp4)
 
 📩 ASSISTENZA TECNICA
 

@@ -62,6 +62,7 @@ Nota Tecnica sulla Sync: Casa Facile Pro evita deliberatamente le API bancarie (
 32. **Importazione Estratti**: Importa i movimenti da qualsiasi estratto PDF o CSV.
 33. **Analisi Finanziaria OpenAI**: Analisi completa dell' andamento finanziario.
 34. **Archivio Documenti Personali**: Documenti Sempre a portata di mano.
+35. **Tasti Shortcut Personali**: Apri le funzioni rapide con una combinazione di tasti abbreviati.
 ---
        
 ### 📺 [Guarda il Video](https://github.com/Renato-4132/Casa-Facile/raw/main/Casa-Facile.mp4)

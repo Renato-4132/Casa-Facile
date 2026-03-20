@@ -64,7 +64,7 @@ Nota Tecnica sulla Sync: Casa Facile Pro evita deliberatamente le API bancarie (
 34. **Archivio Documenti Personali**: Documenti Sempre a portata di mano.
 35. **Tasti Shortcut Personali**: Apri le funzioni rapide con una combinazione di tasti abbreviati.
 36. **Algoritmo FairShare**: Calcolo intelligente per la ripartizione equa delle spese e dei rimborsi tra i partecipanti.
-37. **Conti Personali FairShare**: Ogni partecipante può avere un conto privato ⚖️ per tracciare le proprie spese personali,
+37. **Conti Personali FairShare**: Ogni partecipante può avere un conto ⚖️ per tracciare le proprie spese personali.
 ---
        
 ### 📺 [Guarda il Video](https://github.com/Renato-4132/Casa-Facile/raw/main/Casa-Facile.mp4)

@@ -301,16 +301,16 @@
 
         <section class="mb-20">
             <style>
-                .priv-btn { width:100%; background:#111827; border:1px solid #1e293b; color:#e2e8f0; padding:0; cursor:pointer; text-align:left; border-radius:16px; overflow:hidden; transition:all 0.2s; }
-                .priv-btn:hover { border-color:#4f46e5; }
-                .priv-btn.open { border-color:#4f46e5; border-radius:16px 16px 0 0; border-bottom:none; }
-                .priv-header { display:flex; align-items:center; gap:16px; padding:18px 24px; }
-                .priv-chevron { width:28px; height:28px; border-radius:50%; background:#1e293b; display:flex; align-items:center; justify-content:center; transition:transform 0.35s ease; }
-                .priv-btn.open .priv-chevron { transform:rotate(180deg); background:#4f46e5; }
-                .priv-body-wrap { background:#111827; border:1px solid #4f46e5; border-top:none; border-radius:0 0 16px 16px; overflow:hidden; max-height:0; transition:max-height 0.4s ease-out; }
-                .priv-body-wrap.open { max-height: 1000px; } /* Valore alto per sicurezza */
+                .priv-btn { width: 100%; background: #111827; border: 1px solid #1e293b; color: #e2e8f0; padding: 0; cursor: pointer; text-align: left; border-radius: 16px; overflow: hidden; transition: all 0.2s; }
+                .priv-btn:hover { border-color: #4f46e5; }
+                .priv-btn.open { border-color: #4f46e5; margin-bottom: 0; }
+                .priv-header { display: flex; align-items: center; gap: 16px; padding: 18px 24px; }
+                .priv-chevron { width: 28px; height: 28px; border-radius: 50%; background: #1e293b; display: flex; align-items: center; justify-content: center; transition: transform 0.35s ease; }
+                .priv-btn.open .priv-chevron { transform: rotate(180deg); background: #4f46e5; }
+                .priv-body-wrap { background: transparent; overflow: hidden; max-height: 0; transition: max-height 0.4s ease-out; }
+                .priv-body-wrap.open { max-height: 1000px; }
             </style>
-            <button class="priv-btn" id="btn-privacy" onclick="togglePrivacy()">
+            <button class="priv-btn" id="btn-privacy-main" onclick="togglePrivacyMain()">
                 <div class="priv-header">
                     <span style="font-size:22px;">🛡️</span>
                     <div style="flex:1; text-align: left;">
@@ -318,13 +318,14 @@
                         <div class="text-xs text-slate-500">Zero Cloud · Trasparenza Totale · Accesso Remoto Sicuro</div>
                     </div>
                     <div class="priv-chevron">
-                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#94a3b8" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#94a3b8" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
                     </div>
                 </div>
             </button>
-            <div class="priv-body-wrap" id="body-privacy">
-                <div class="p-6 pt-2">
-                    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-start mt-4">
+            <div class="priv-body-wrap" id="body-privacy-main">
+                <div class="p-6 pt-6"> <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
                         <div class="flex flex-col items-center text-center">
                             <i class="fas fa-shield-alt text-4xl text-green-500 mb-4"></i>
                             <p class="text-sm font-bold text-white mb-1">Zero Cloud</p>
@@ -343,19 +344,16 @@
                     </div>
                 </div>
             </div>
-
             <script>
-                function togglePrivacy() {
-                    const btn = document.getElementById('btn-privacy');
-                    const body = document.getElementById('body-privacy');
+                function togglePrivacyMain() {
+                    const btn = document.getElementById('btn-privacy-main');
+                    const body = document.getElementById('body-privacy-main');
                     const isOpen = btn.classList.contains('open');
                     if (isOpen) {
                         btn.classList.remove('open');
-                        body.classList.remove('open');
                         body.style.maxHeight = "0px";
                     } else {
                         btn.classList.add('open');
-                        body.classList.add('open');
                         body.style.maxHeight = body.scrollHeight + "px";
                     }
                 }

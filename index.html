@@ -298,6 +298,24 @@
             </div>
         </section>
 
+        <section class="carousel-outer mb-20">
+            <div class="carousel-wrap" id="carousel">
+                <div class="carousel-track" id="carTrack">
+                    </div>
+                
+                <div class="car-progress" id="carProgress"></div>
+                
+                <button class="car-btn prev" onclick="carMove(-1)" aria-label="Precedente">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="car-btn next" onclick="carMove(1)" aria-label="Successivo">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+            
+            <div class="car-dots" id="carDots"></div>
+        </section>
+
         <section class="mb-5">
             <style>
                 .priv-btn { width: 100%; background: #111827; border: 1px solid #1e293b; color: #e2e8f0; padding: 0; cursor: pointer; text-align: left; border-radius: 16px; overflow: hidden; transition: all 0.2s; }

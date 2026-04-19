@@ -65,6 +65,8 @@ Nota Tecnica sulla Sync: Casa Facile Pro evita deliberatamente le API bancarie (
 35. **Tasti Shortcut Personali**: Apri le funzioni rapide con una combinazione di tasti abbreviati.
 36. **Algoritmo FairShare**: Calcolo intelligente per la ripartizione equa delle spese e dei rimborsi tra i partecipanti.
 37. **Conti Personali FairShare**: Ogni partecipante può avere un conto ⚖️ per tracciare le proprie spese personali.
+38. **Mercati Finanziari**: Monitoraggio in tempo reale degli indici e degli asset finanziari globali.
+39. **Aggiornamento Librerie Python**: Sistema automatico di manutenzione e update delle dipendenze Python.
 ---
        
 ### 📺 [Guarda il Video](https://github.com/Renato-4132/Casa-Facile/raw/main/Casa-Facile.mp4)
@@ -87,6 +89,6 @@ Metodo consigliato per utenti Windows.
 
 1. Crea una cartella dedicata (il nome della cartella sarà il tuo **Nome Profilo**).
 2. Inserisci il file `Casa Facile.pyw` all'interno.
-3. Il Software installerà in automatico le dipendenze: tkcalendar google-genai requests segno pypiwin32 cryptography pystray pymupdf.
+3. Il Software installerà in automatico le dipendenze: tkcalendar google-genai requests segno pypiwin32 cryptography pystray pymupdf yfinance.
 
 ## 🌐 SCOPRI DI PIÙ [![Sito Web](https://img.shields.io/badge/SITO_UFFICIALE-VISITA-4f46e5?style=flat-square&logo=google-chrome&logoColor=white)](https://renato-4132.github.io/Casa-Facile/)

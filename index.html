@@ -300,85 +300,155 @@
         </section>
 
         <section class="mb-20">
-            <h2 class="text-3xl font-black text-center mb-3 text-white italic tracking-normal uppercase">
-                Potenza e Controllo in 38+ Funzioni
-            </h2>
-            <p class="text-center text-slate-500 text-xs uppercase tracking-widest mb-8">Sfoglia le funzionalità · frecce tastiera · swipe mobile</p>
-
-            <div class="carousel-outer">
-                <div class="carousel-wrap" id="carousel">
-                    <div class="carousel-track" id="carTrack"></div>
-                    <div class="car-progress" id="carProgress"></div>
-                    <button class="car-btn prev" onclick="carMove(-1)" aria-label="Precedente"><i class="fas fa-chevron-left"></i></button>
-                    <button class="car-btn next" onclick="carMove(1)" aria-label="Successivo"><i class="fas fa-chevron-right"></i></button>
+            <style>
+                .priv-btn { width:100%; background:#111827; border:1px solid #1e293b; color:#e2e8f0; padding:0; cursor:pointer; text-align:left; border-radius:16px; overflow:hidden; transition:all 0.2s; }
+                .priv-btn:hover { border-color:#4f46e5; }
+                .priv-btn.open { border-color:#4f46e5; border-radius:16px 16px 0 0; border-bottom:none; }
+                .priv-header { display:flex; align-items:center; gap:16px; padding:18px 24px; }
+                .priv-chevron { width:28px; height:28px; border-radius:50%; background:#1e293b; display:flex; align-items:center; justify-content:center; transition:transform 0.35s ease; }
+                .priv-btn.open .priv-chevron { transform:rotate(180deg); background:#4f46e5; }
+                .priv-body-wrap { background:#111827; border:1px solid #4f46e5; border-top:none; border-radius:0 0 16px 16px; overflow:hidden; max-height:0; transition:max-height 0.4s ease-out; }
+                .priv-body-wrap.open { max-height: 1000px; } /* Valore alto per sicurezza */
+            </style>
+            <button class="priv-btn" id="btn-privacy" onclick="togglePrivacy()">
+                <div class="priv-header">
+                    <span style="font-size:22px;">🛡️</span>
+                    <div style="flex:1; text-align: left;">
+                        <div class="text-lg font-bold italic text-[#fcd34d] font-['Barlow_Condensed'] uppercase tracking-tight">"I tuoi dati sono tuoi. Punto."</div>
+                        <div class="text-xs text-slate-500">Zero Cloud · Trasparenza Totale · Accesso Remoto Sicuro</div>
+                    </div>
+                    <div class="priv-chevron">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#94a3b8" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+                    </div>
                 </div>
-                <div class="car-dots" id="carDots"></div>
-            </div>
-        </section>
-
-        <section class="bg-slate-800 p-10 rounded-3xl border border-slate-700 text-center mb-20">
-            <h2 class="text-2xl font-bold mb-6 text-white italic">"I tuoi dati sono tuoi. Punto."</h2>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
-                <div class="flex flex-col items-center">
-                    <i class="fas fa-shield-alt text-4xl text-green-500 mb-4"></i>
-                    <p class="text-sm font-bold text-white mb-1">Zero Cloud</p>
-                    <p class="text-xs text-slate-400">Nessun invio esterno. Il database risiede esclusivamente nel tuo hard disk.</p>
-                </div>
-                <div class="flex flex-col items-center">
-                    <i class="fas fa-eye-slash text-4xl text-red-500 mb-4"></i>
-                    <p class="text-sm font-bold text-white mb-1">Trasparenza Totale</p>
-                    <p class="text-xs text-slate-400">Codice Opensource (MIT): chiunque può verificare come vengono gestiti i dati.</p>
-                </div>
-                <div class="flex flex-col items-center">
-                    <i class="fas fa-user-lock text-4xl text-indigo-500 mb-4"></i>
-                    <p class="text-sm font-bold text-white mb-1">Accesso Remoto Sicuro</p>
-                    <p class="text-xs text-slate-400">Se usi il Webserver fuori casa, <span class="text-indigo-400">consigliamo una VPN</span>. (es. WireGuard, Tailscale, OpenVPN o IPSTATICO.PRO) Evita di aprire porte sul router: un tunnel cifrato protegge i dati da occhi indiscreti durante il transito.</p>
-                </div>
-            </div>
-        </section>
-
-        <section class="grid md:grid-cols-2 gap-10 mb-20">
-            <div class="space-y-6">
-                <h2 class="text-3xl font-bold flex items-center text-white italic">
-                    <i class="fab fa-windows mr-3 text-blue-400"></i> Windows (Automatico)
-                </h2>
-                <div class="bg-slate-800 p-6 rounded-2xl border border-slate-700 space-y-4">
-                    <div class="flex items-start">
-                        <span class="step-number mt-1 mr-3">1</span>
-                        <div>
-                            <p>Scarica l'installer:</p>
-                            <a href="https://github.com/Renato-4132/Casa-Facile/raw/main/C.F.Win.Installer.zip" class="btn-download">
-                                <i class="fas fa-file-archive mr-2"></i> Scarica .zip
-                            </a>
+            </button>
+            <div class="priv-body-wrap" id="body-privacy">
+                <div class="p-6 pt-2">
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-start mt-4">
+                        <div class="flex flex-col items-center text-center">
+                            <i class="fas fa-shield-alt text-4xl text-green-500 mb-4"></i>
+                            <p class="text-sm font-bold text-white mb-1">Zero Cloud</p>
+                            <p class="text-xs text-slate-400">Nessun invio esterno. Il database risiede esclusivamente nel tuo hard disk.</p>
+                        </div>
+                        <div class="flex flex-col items-center text-center">
+                            <i class="fas fa-eye-slash text-4xl text-red-500 mb-4"></i>
+                            <p class="text-sm font-bold text-white mb-1">Trasparenza Totale</p>
+                            <p class="text-xs text-slate-400">Codice Opensource (MIT): chiunque può verificare come vengono gestiti i dati.</p>
+                        </div>
+                        <div class="flex flex-col items-center text-center">
+                            <i class="fas fa-user-lock text-4xl text-indigo-500 mb-4"></i>
+                            <p class="text-sm font-bold text-white mb-1">Accesso Remoto Sicuro</p>
+                            <p class="text-xs text-slate-400">Se usi il Webserver fuori casa, <span class="text-indigo-400 font-bold">consigliamo una VPN</span>. Proteggi i tuoi dati da occhi indiscreti.</p>
                         </div>
                     </div>
-                    <div class="flex items-start">
-                        <span class="step-number mt-1 mr-3">2</span>
-                        <p>Estrai ed esegui il file EXE per la configurazione automatica.</p>
-                    </div>
-                    <div class="flex items-start pt-2 border-t border-slate-700">
-                        <span class="step-number mt-1 mr-3 bg-indigo-400">!</span>
-                        <p class="text-indigo-200 text-sm italic">Nota: rieseguendo l'installer potrai creare nuovi profili utente separati.</p>
-                    </div>
                 </div>
             </div>
-            <div class="space-y-6">
-                <h2 class="text-3xl font-bold flex items-center text-white italic">
-                    <i class="fas fa-terminal mr-3 text-green-400"></i> Manuale / Sorgente
-                </h2>
-                <div class="bg-slate-800 p-6 rounded-2xl border border-slate-700 space-y-4 text-sm">
-                    <p>Procedura per codice sorgente:</p>
-                    <ol class="list-decimal list-inside space-y-2 text-slate-300 font-light text-xs">
-                        <li>Crea una cartella dedicata (<strong>il nome che darai alla cartella sarà il tuo Nome Profilo</strong>).</li>
-                        <li>Inserisci il file <span class="text-indigo-400 font-bold">Casa Facile.pyw</span> all'interno.</li>
-                    </ol>
-                    <div class="warning-box text-[11px]">
-                        <strong>Prerequisito Python:</strong> Durante l'installazione (v3.13+), è fondamentale spuntare la voce <b class="text-orange-400">"Add Python to PATH"</b>.
-                    </div>
-                    <p class="text-[10px] text-slate-500 italic mb-[-8px]">Promemoria librerie (da usare solo in caso di errori all'avvio):</p>
-                    <div class="code-box text-[10px] mt-2 italic">pip install tkcalendar google-genai requests segno pypiwin32 cryptography pystray pymupdf</div>
-                </div>
+
+            <script>
+                function togglePrivacy() {
+                    const btn = document.getElementById('btn-privacy');
+                    const body = document.getElementById('body-privacy');
+                    const isOpen = btn.classList.contains('open');
+                    if (isOpen) {
+                        btn.classList.remove('open');
+                        body.classList.remove('open');
+                        body.style.maxHeight = "0px";
+                    } else {
+                        btn.classList.add('open');
+                        body.classList.add('open');
+                        body.style.maxHeight = body.scrollHeight + "px";
+                    }
+                }
+            </script>
+        </section>
+
+        <section class="mb-20">
+          <style>
+            .acc-btn { width:100%; background:#111827; border:1px solid #1e293b; color:#e2e8f0; padding:0; cursor:pointer; text-align:left; border-radius:16px; overflow:hidden; margin-bottom:12px; transition:border-color 0.2s; }
+            .acc-btn:hover { border-color:#4f46e5; }
+            .acc-btn.open { border-color:#4f46e5; border-radius:16px 16px 0 0; margin-bottom:0; border-bottom:none; }
+            .acc-header { display:flex; align-items:center; gap:16px; padding:18px 24px; }
+            .acc-title-main { font-size:18px; font-weight:700; font-style:italic; font-family:'Barlow Condensed',sans-serif; }
+            .acc-sub { font-size:12px; color:#64748b; margin-top:2px; }
+            .acc-chevron { width:28px; height:28px; border-radius:50%; background:#1e293b; border:1px solid #334155; display:flex; align-items:center; justify-content:center; transition:transform 0.35s cubic-bezier(0.4,0,0.2,1), background 0.2s; flex-shrink:0; }
+            .acc-btn.open .acc-chevron { transform:rotate(180deg); background:#4f46e5; border-color:#4f46e5; }
+            .acc-chevron svg { width:14px; height:14px; fill:none; stroke:#94a3b8; stroke-width:2.5; stroke-linecap:round; stroke-linejoin:round; }
+            .acc-btn.open .acc-chevron svg { stroke:#fff; }
+            .acc-body-wrap { background:#111827; border:1px solid #4f46e5; border-top:none; border-radius:0 0 16px 16px; overflow:hidden; max-height:0; transition:max-height 0.45s cubic-bezier(0.4,0,0.2,1); margin-bottom:12px; }
+            .acc-body-wrap.open { max-height:600px; }
+            .acc-body { padding:0 24px 24px; }
+            .note-row { display:flex; align-items:flex-start; gap:10px; background:rgba(99,102,241,0.08); border:1px solid rgba(99,102,241,0.25); border-radius:10px; padding:10px 14px; margin-top:4px; }
+            .note-badge { background:#6366f1; color:#fff; width:22px; height:22px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-weight:900; font-size:12px; flex-shrink:0; margin-top:1px; }
+          </style>
+
+          <button class="acc-btn" id="btn-win" onclick="accToggle('win')">
+            <div class="acc-header">
+              <span style="font-size:22px;">🪟</span>
+              <div style="flex:1;">
+                <div class="acc-title-main" style="color:#60a5fa;">Windows (Automatico)</div>
+                <div class="acc-sub">Installer .zip · configurazione guidata · profili multipli</div>
+             </div>
+              <div class="acc-chevron"><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></div>
             </div>
+          </button>
+          <div class="acc-body-wrap" id="body-win">
+            <div class="acc-body">
+              <div class="flex items-start gap-3 mb-4">
+                <span class="step-number mt-1">1</span>
+                <div><p>Scarica l'installer:</p>
+                  <a href="https://github.com/Renato-4132/Casa-Facile/raw/main/C.F.Win.Installer.zip" class="btn-download"><i class="fas fa-file-archive mr-2"></i> Scarica .zip</a>
+                </div>
+              </div>
+              <div class="flex items-start gap-3 mb-4">
+                <span class="step-number mt-1">2</span>
+                <p>Estrai ed esegui il file EXE per la configurazione automatica.</p>
+              </div>
+              <hr style="border:none;border-top:1px solid #1e293b;margin:12px 0;">
+              <div class="note-row">
+                <div class="note-badge">!</div>
+                <p style="font-size:12px;color:#a5b4fc;font-style:italic;margin:0;line-height:1.5;">Rieseguendo l'installer potrai creare nuovi profili utente separati.</p>
+              </div>
+            </div>
+          </div>
+
+          <button class="acc-btn" id="btn-src" onclick="accToggle('src')">
+            <div class="acc-header">
+              <span style="font-size:22px;">⌨️</span>
+              <div style="flex:1;">
+                <div class="acc-title-main" style="color:#4ade80;">Manuale / Sorgente</div>
+                <div class="acc-sub">Python 3.13+ · pip · codice grezzo</div>
+              </div>
+              <div class="acc-chevron"><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></div>
+            </div>
+          </button>
+          <div class="acc-body-wrap" id="body-src">
+            <div class="acc-body">
+              <p style="font-size:13px;color:#64748b;margin:0 0 10px;">Procedura per codice sorgente:</p>
+              <ol style="list-style:decimal;padding-left:18px;margin:8px 0;">
+                <li style="font-size:13px;color:#94a3b8;margin-bottom:6px;">Crea una cartella dedicata — <strong style="color:#e2e8f0;">il nome sarà il tuo Nome Profilo</strong>.</li>
+                <li style="font-size:13px;color:#94a3b8;">Inserisci il file <span style="color:#818cf8;font-weight:700;">Casa Facile.pyw</span> all'interno.</li>
+              </ol>
+              <div class="warning-box" style="font-size:11px;margin:10px 0;">
+                <strong>Prerequisito Python:</strong> Durante l'installazione (v3.13+), spunta <b class="text-orange-400">"Add Python to PATH"</b>.
+              </div>
+              <p style="font-size:11px;color:#475569;margin:12px 0 0;font-style:italic;">Librerie (solo in caso di errori all'avvio):</p>
+              <div class="code-box" style="font-size:10px;margin-top:6px;">pip install tkcalendar google-genai requests segno pypiwin32 cryptography pystray pymupdf flask</div>
+            </div>
+          </div>
+
+          <script>
+          function accToggle(id) {
+            const isOpen = document.getElementById('btn-'+id).classList.contains('open');
+            ['win','src'].forEach(k => {
+              document.getElementById('btn-'+k).classList.remove('open');
+              document.getElementById('body-'+k).classList.remove('open');
+            });
+            if (!isOpen) {
+              document.getElementById('btn-'+id).classList.add('open');
+              document.getElementById('body-'+id).classList.add('open');
+            }
+          }
+          </script>
         </section>
 
         <section class="space-y-10 mb-20">

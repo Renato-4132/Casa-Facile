@@ -67,6 +67,7 @@ Nota Tecnica sulla Sync: Casa Facile Pro evita deliberatamente le API bancarie (
 37. **Conti Personali FairShare**: Ogni partecipante può avere un conto ⚖️ per tracciare le proprie spese personali.
 38. **Mercati Finanziari**: Monitoraggio in tempo reale degli indici e degli asset finanziari globali.
 39. **Aggiornamento Librerie Python**: Sistema automatico di manutenzione e update delle dipendenze Python.
+40. **Confronto Bollette IA**: Introdotta una nuova suite di analisi intelligente per il confronto multi-documento.
 ---
        
 ### 📺 [Guarda il Video](https://github.com/Renato-4132/Casa-Facile/raw/main/Casa-Facile.mp4)

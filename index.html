@@ -316,6 +316,209 @@
             <div class="car-dots" id="carDots"></div>
         </section>
 
+        <section class="mb-10">
+        <button class="acc-btn" id="btn-funzioni" onclick="accToggleFunzioni()">
+                <div class="acc-header">
+                        <span style="font-size:22px;">🔥</span>
+                        <div style="flex:1;">
+                                <div class="acc-title-main" style="color:#f97316;">POTENZA IN 40+ FUNZIONI</div>
+                                <div class="acc-sub">Dal calendario heartbeat all'AI finanziaria · tutto integrato · zero cloud</div>
+                        </div>
+                        <div class="acc-chevron" id="chev-funzioni"><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></div>
+                </div>
+        </button>
+        <div class="acc-body-wrap" id="body-funzioni" style="max-height:0;">
+                <div class="acc-body" style="padding-top:20px;">
+                        <ol style="
+                                display:grid;
+                                grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+                                gap:8px 24px;
+                                padding-left:0;
+                                list-style:none;
+                                margin:0;
+                        ">
+                                <li style="display:flex;gap:10px;align-items:flex-start;padding:8px 12px;background:rgba(249,115,22,0.06);border:1px solid rgba(249,115,22,0.18);border-radius:10px;">
+                                        <span style="color:#f97316;font-weight:900;font-size:13px;min-width:24px;padding-top:1px;">01</span>
+                                        <span style="font-size:12px;color:#e2e8f0;line-height:1.45;"><strong style="color:#fff;">Calendario Heartbeat</strong><br><span style="color:#94a3b8;">Vista globale dei tuoi impegni finanziari.</span></span>
+                                </li>
+                                <li style="display:flex;gap:10px;align-items:flex-start;padding:8px 12px;background:rgba(249,115,22,0.06);border:1px solid rgba(249,115,22,0.18);border-radius:10px;">
+                                        <span style="color:#f97316;font-weight:900;font-size:13px;min-width:24px;padding-top:1px;">02</span>
+                                        <span style="font-size:12px;color:#e2e8f0;line-height:1.45;"><strong style="color:#fff;">Gestione Ricorrenze</strong><br><span style="color:#94a3b8;">Automatizza i movimenti fissi.</span></span>
+                                </li>
+                                <li style="display:flex;gap:10px;align-items:flex-start;padding:8px 12px;background:rgba(249,115,22,0.06);border:1px solid rgba(249,115,22,0.18);border-radius:10px;">
+                                        <span style="color:#f97316;font-weight:900;font-size:13px;min-width:24px;padding-top:1px;">03</span>
+                                        <span style="font-size:12px;color:#e2e8f0;line-height:1.45;"><strong style="color:#fff;">Grafici Drill-Down</strong><br><span style="color:#94a3b8;">Analisi visiva profonda delle spese.</span></span>
+                                </li>
+                                <li style="display:flex;gap:10px;align-items:flex-start;padding:8px 12px;background:rgba(249,115,22,0.06);border:1px solid rgba(249,115,22,0.18);border-radius:10px;">
+                                        <span style="color:#f97316;font-weight:900;font-size:13px;min-width:24px;padding-top:1px;">04</span>
+                                        <span style="font-size:12px;color:#e2e8f0;line-height:1.45;"><strong style="color:#fff;">Archivio Documenti Contabili PDF</strong><br><span style="color:#94a3b8;">Collega i documenti ai movimenti.</span></span>
+                                </li>
+                                <li style="display:flex;gap:10px;align-items:flex-start;padding:8px 12px;background:rgba(249,115,22,0.06);border:1px solid rgba(249,115,22,0.18);border-radius:10px;">
+                                        <span style="color:#f97316;font-weight:900;font-size:13px;min-width:24px;padding-top:1px;">05</span>
+                                        <span style="font-size:12px;color:#e2e8f0;line-height:1.45;"><strong style="color:#fff;">Monitor Utenze</strong><br><span style="color:#94a3b8;">Tieni d'occhio i consumi di luce, gas e acqua.</span></span>
+                                </li>
+                                <li style="display:flex;gap:10px;align-items:flex-start;padding:8px 12px;background:rgba(249,115,22,0.06);border:1px solid rgba(249,115,22,0.18);border-radius:10px;">
+                                        <span style="color:#f97316;font-weight:900;font-size:13px;min-width:24px;padding-top:1px;">06</span>
+                                        <span style="font-size:12px;color:#e2e8f0;line-height:1.45;"><strong style="color:#fff;">Simulatore Risparmio</strong><br><span style="color:#94a3b8;">Calcola come raggiungere i tuoi obiettivi.</span></span>
+                                </li>
+                                <li style="display:flex;gap:10px;align-items:flex-start;padding:8px 12px;background:rgba(249,115,22,0.06);border:1px solid rgba(249,115,22,0.18);border-radius:10px;">
+                                        <span style="color:#f97316;font-weight:900;font-size:13px;min-width:24px;padding-top:1px;">07</span>
+                                        <span style="font-size:12px;color:#e2e8f0;line-height:1.45;"><strong style="color:#fff;">Proiezione 31/12</strong><br><span style="color:#94a3b8;">Prevedi il saldo a fine anno.</span></span>
+                                </li>
+                                <li style="display:flex;gap:10px;align-items:flex-start;padding:8px 12px;background:rgba(249,115,22,0.06);border:1px solid rgba(249,115,22,0.18);border-radius:10px;">
+                                        <span style="color:#f97316;font-weight:900;font-size:13px;min-width:24px;padding-top:1px;">08</span>
+                                        <span style="font-size:12px;color:#e2e8f0;line-height:1.45;"><strong style="color:#fff;">Webserver Remoto</strong><br><span style="color:#94a3b8;">Consulta i dati dallo smartphone in rete locale/remota.</span></span>
+                                </li>
+                                <li style="display:flex;gap:10px;align-items:flex-start;padding:8px 12px;background:rgba(249,115,22,0.06);border:1px solid rgba(249,115,22,0.18);border-radius:10px;">
+                                        <span style="color:#f97316;font-weight:900;font-size:13px;min-width:24px;padding-top:1px;">09</span>
+                                        <span style="font-size:12px;color:#e2e8f0;line-height:1.45;"><strong style="color:#fff;">Confronto Prezzi</strong><br><span style="color:#94a3b8;">Ottimizza la tua spesa alimentare.</span></span>
+                                </li>
+                                <li style="display:flex;gap:10px;align-items:flex-start;padding:8px 12px;background:rgba(249,115,22,0.06);border:1px solid rgba(249,115,22,0.18);border-radius:10px;">
+                                        <span style="color:#f97316;font-weight:900;font-size:13px;min-width:24px;padding-top:1px;">10</span>
+                                        <span style="font-size:12px;color:#e2e8f0;line-height:1.45;"><strong style="color:#fff;">Ammortamento Mutui</strong><br><span style="color:#94a3b8;">Calcola rate e interessi reali · Piani Ammortamento.</span></span>
+                                </li>
+                                <li style="display:flex;gap:10px;align-items:flex-start;padding:8px 12px;background:rgba(249,115,22,0.06);border:1px solid rgba(249,115,22,0.18);border-radius:10px;">
+                                        <span style="color:#f97316;font-weight:900;font-size:13px;min-width:24px;padding-top:1px;">11</span>
+                                        <span style="font-size:12px;color:#e2e8f0;line-height:1.45;"><strong style="color:#fff;">Generatore QR Code</strong><br><span style="color:#94a3b8;">Configura i promemoria con un colpo d'occhio.</span></span>
+                                </li>
+                                <li style="display:flex;gap:10px;align-items:flex-start;padding:8px 12px;background:rgba(249,115,22,0.06);border:1px solid rgba(249,115,22,0.18);border-radius:10px;">
+                                        <span style="color:#f97316;font-weight:900;font-size:13px;min-width:24px;padding-top:1px;">12</span>
+                                        <span style="font-size:12px;color:#e2e8f0;line-height:1.45;"><strong style="color:#fff;">Configurazione & Backup</strong><br><span style="color:#94a3b8;">Dati sempre esportabili e sicuri.</span></span>
+                                </li>
+                                <li style="display:flex;gap:10px;align-items:flex-start;padding:8px 12px;background:rgba(249,115,22,0.06);border:1px solid rgba(249,115,22,0.18);border-radius:10px;">
+                                        <span style="color:#f97316;font-weight:900;font-size:13px;min-width:24px;padding-top:1px;">13</span>
+                                        <span style="font-size:12px;color:#e2e8f0;line-height:1.45;"><strong style="color:#fff;">Rubrica Vcard/Android</strong><br><span style="color:#94a3b8;">Esporta/importa i contatti dal tuo smartphone.</span></span>
+                                </li>
+                                <li style="display:flex;gap:10px;align-items:flex-start;padding:8px 12px;background:rgba(249,115,22,0.06);border:1px solid rgba(249,115,22,0.18);border-radius:10px;">
+                                        <span style="color:#f97316;font-weight:900;font-size:13px;min-width:24px;padding-top:1px;">14</span>
+                                        <span style="font-size:12px;color:#e2e8f0;line-height:1.45;"><strong style="color:#fff;">Stampa Report</strong><br><span style="color:#94a3b8;">Documentazione professionale pronta all'uso.</span></span>
+                                </li>
+                                <li style="display:flex;gap:10px;align-items:flex-start;padding:8px 12px;background:rgba(249,115,22,0.06);border:1px solid rgba(249,115,22,0.18);border-radius:10px;">
+                                        <span style="color:#f97316;font-weight:900;font-size:13px;min-width:24px;padding-top:1px;">15</span>
+                                        <span style="font-size:12px;color:#e2e8f0;line-height:1.45;"><strong style="color:#fff;">Saldo Bancario</strong><br><span style="color:#94a3b8;">Riconciliazione immediata dei conti.</span></span>
+                                </li>
+                                <li style="display:flex;gap:10px;align-items:flex-start;padding:8px 12px;background:rgba(249,115,22,0.06);border:1px solid rgba(249,115,22,0.18);border-radius:10px;">
+                                        <span style="color:#f97316;font-weight:900;font-size:13px;min-width:24px;padding-top:1px;">16</span>
+                                        <span style="font-size:12px;color:#e2e8f0;line-height:1.45;"><strong style="color:#fff;">Ricerca Multi-Filtro</strong><br><span style="color:#94a3b8;">Trova ogni centesimo in un istante.</span></span>
+                                </li>
+                                <li style="display:flex;gap:10px;align-items:flex-start;padding:8px 12px;background:rgba(249,115,22,0.06);border:1px solid rgba(249,115,22,0.18);border-radius:10px;">
+                                        <span style="color:#f97316;font-weight:900;font-size:13px;min-width:24px;padding-top:1px;">17</span>
+                                        <span style="font-size:12px;color:#e2e8f0;line-height:1.45;"><strong style="color:#fff;">Profili Multi-Postazione</strong><br><span style="color:#94a3b8;">Gestisci più persone con database separati.</span></span>
+                                </li>
+                                <li style="display:flex;gap:10px;align-items:flex-start;padding:8px 12px;background:rgba(249,115,22,0.06);border:1px solid rgba(249,115,22,0.18);border-radius:10px;">
+                                        <span style="color:#f97316;font-weight:900;font-size:13px;min-width:24px;padding-top:1px;">18</span>
+                                        <span style="font-size:12px;color:#e2e8f0;line-height:1.45;"><strong style="color:#fff;">Sicurezza Password</strong><br><span style="color:#94a3b8;">Accesso protetto e crittografato.</span></span>
+                                </li>
+                                <li style="display:flex;gap:10px;align-items:flex-start;padding:8px 12px;background:rgba(249,115,22,0.06);border:1px solid rgba(249,115,22,0.18);border-radius:10px;">
+                                        <span style="color:#f97316;font-weight:900;font-size:13px;min-width:24px;padding-top:1px;">19</span>
+                                        <span style="font-size:12px;color:#e2e8f0;line-height:1.45;"><strong style="color:#fff;">Esportazione TXT/PDF/Stampa</strong><br><span style="color:#94a3b8;">Scegli come salvare o stampare i dati.</span></span>
+                                </li>
+                                <li style="display:flex;gap:10px;align-items:flex-start;padding:8px 12px;background:rgba(249,115,22,0.06);border:1px solid rgba(249,115,22,0.18);border-radius:10px;">
+                                        <span style="color:#f97316;font-weight:900;font-size:13px;min-width:24px;padding-top:1px;">20</span>
+                                        <span style="font-size:12px;color:#e2e8f0;line-height:1.45;"><strong style="color:#fff;">Aggregazione Categorie</strong><br><span style="color:#94a3b8;">Raggruppa le spese per aree tematiche.</span></span>
+                                </li>
+                                <li style="display:flex;gap:10px;align-items:flex-start;padding:8px 12px;background:rgba(249,115,22,0.06);border:1px solid rgba(249,115,22,0.18);border-radius:10px;">
+                                        <span style="color:#f97316;font-weight:900;font-size:13px;min-width:24px;padding-top:1px;">21</span>
+                                        <span style="font-size:12px;color:#e2e8f0;line-height:1.45;"><strong style="color:#fff;">Sincronizzazione Gmail</strong><br><span style="color:#94a3b8;">Scarica e archivia in automatico le fatture dalla tua email.</span></span>
+                                </li>
+                                <li style="display:flex;gap:10px;align-items:flex-start;padding:8px 12px;background:rgba(249,115,22,0.06);border:1px solid rgba(249,115,22,0.18);border-radius:10px;">
+                                        <span style="color:#f97316;font-weight:900;font-size:13px;min-width:24px;padding-top:1px;">22</span>
+                                        <span style="font-size:12px;color:#e2e8f0;line-height:1.45;"><strong style="color:#fff;">Temi Personalizzabili</strong><br><span style="color:#94a3b8;">Cambia l'aspetto grafico per adattare l'interfaccia al tuo stile.</span></span>
+                                </li>
+                                <li style="display:flex;gap:10px;align-items:flex-start;padding:8px 12px;background:rgba(249,115,22,0.06);border:1px solid rgba(249,115,22,0.18);border-radius:10px;">
+                                        <span style="color:#f97316;font-weight:900;font-size:13px;min-width:24px;padding-top:1px;">23</span>
+                                        <span style="font-size:12px;color:#e2e8f0;line-height:1.45;"><strong style="color:#fff;">Smart Info Point</strong><br><span style="color:#94a3b8;">Popup rapido sul calendario per visualizzare i movimenti al passaggio del mouse.</span></span>
+                                </li>
+                                <li style="display:flex;gap:10px;align-items:flex-start;padding:8px 12px;background:rgba(249,115,22,0.06);border:1px solid rgba(249,115,22,0.18);border-radius:10px;">
+                                        <span style="color:#f97316;font-weight:900;font-size:13px;min-width:24px;padding-top:1px;">24</span>
+                                        <span style="font-size:12px;color:#e2e8f0;line-height:1.45;"><strong style="color:#fff;">SmartCat AI</strong><br><span style="color:#94a3b8;">Categoria automatica basata sullo storico delle tue entrate e uscite.</span></span>
+                                </li>
+                                <li style="display:flex;gap:10px;align-items:flex-start;padding:8px 12px;background:rgba(249,115,22,0.06);border:1px solid rgba(249,115,22,0.18);border-radius:10px;">
+                                        <span style="color:#f97316;font-weight:900;font-size:13px;min-width:24px;padding-top:1px;">25</span>
+                                        <span style="font-size:12px;color:#e2e8f0;line-height:1.45;"><strong style="color:#fff;">Crash Recovery</strong><br><span style="color:#94a3b8;">Ripristino automatico dell'ultimo salvataggio valido.</span></span>
+                                </li>
+                                <li style="display:flex;gap:10px;align-items:flex-start;padding:8px 12px;background:rgba(249,115,22,0.06);border:1px solid rgba(249,115,22,0.18);border-radius:10px;">
+                                        <span style="color:#f97316;font-weight:900;font-size:13px;min-width:24px;padding-top:1px;">26</span>
+                                        <span style="font-size:12px;color:#e2e8f0;line-height:1.45;"><strong style="color:#fff;">Promemoria Categorie</strong><br><span style="color:#94a3b8;">Avvisi mensili sulle spese ricorrenti dimenticate.</span></span>
+                                </li>
+                                <li style="display:flex;gap:10px;align-items:flex-start;padding:8px 12px;background:rgba(249,115,22,0.06);border:1px solid rgba(249,115,22,0.18);border-radius:10px;">
+                                        <span style="color:#f97316;font-weight:900;font-size:13px;min-width:24px;padding-top:1px;">27</span>
+                                        <span style="font-size:12px;color:#e2e8f0;line-height:1.45;"><strong style="color:#fff;">Notifiche Auto-chiudenti</strong><br><span style="color:#94a3b8;">Messaggi che scompaiono automaticamente dopo il tempo prestabilito.</span></span>
+                                </li>
+                                <li style="display:flex;gap:10px;align-items:flex-start;padding:8px 12px;background:rgba(249,115,22,0.06);border:1px solid rgba(249,115,22,0.18);border-radius:10px;">
+                                        <span style="color:#f97316;font-weight:900;font-size:13px;min-width:24px;padding-top:1px;">28</span>
+                                        <span style="font-size:12px;color:#e2e8f0;line-height:1.45;"><strong style="color:#fff;">Auto-Iconizza</strong><br><span style="color:#94a3b8;">Riduzione automatica a icona dopo un periodo di inattività.</span></span>
+                                </li>
+                                <li style="display:flex;gap:10px;align-items:flex-start;padding:8px 12px;background:rgba(249,115,22,0.06);border:1px solid rgba(249,115,22,0.18);border-radius:10px;">
+                                        <span style="color:#f97316;font-weight:900;font-size:13px;min-width:24px;padding-top:1px;">29</span>
+                                        <span style="font-size:12px;color:#e2e8f0;line-height:1.45;"><strong style="color:#fff;">Carosello Grafici</strong><br><span style="color:#94a3b8;">Tour automatico degli andamenti all'avvio con pausa al mouse.</span></span>
+                                </li>
+                                <li style="display:flex;gap:10px;align-items:flex-start;padding:8px 12px;background:rgba(249,115,22,0.06);border:1px solid rgba(249,115,22,0.18);border-radius:10px;">
+                                        <span style="color:#f97316;font-weight:900;font-size:13px;min-width:24px;padding-top:1px;">30</span>
+                                        <span style="font-size:12px;color:#e2e8f0;line-height:1.45;"><strong style="color:#fff;">Retention Automatica</strong><br><span style="color:#94a3b8;">Determina per quanti anni conservare i dati e rimuove i più vecchi.</span></span>
+                                </li>
+                                <li style="display:flex;gap:10px;align-items:flex-start;padding:8px 12px;background:rgba(249,115,22,0.06);border:1px solid rgba(249,115,22,0.18);border-radius:10px;">
+                                        <span style="color:#f97316;font-weight:900;font-size:13px;min-width:24px;padding-top:1px;">31</span>
+                                        <span style="font-size:12px;color:#e2e8f0;line-height:1.45;"><strong style="color:#fff;">Backup Automatico</strong><br><span style="color:#94a3b8;">Gestione personalizzata del numero di copie per database e documenti.</span></span>
+                                </li>
+                                <li style="display:flex;gap:10px;align-items:flex-start;padding:8px 12px;background:rgba(249,115,22,0.06);border:1px solid rgba(249,115,22,0.18);border-radius:10px;">
+                                        <span style="color:#f97316;font-weight:900;font-size:13px;min-width:24px;padding-top:1px;">32</span>
+                                        <span style="font-size:12px;color:#e2e8f0;line-height:1.45;"><strong style="color:#fff;">Importazione Estratti</strong><br><span style="color:#94a3b8;">Importa i movimenti da qualsiasi estratto PDF o CSV.</span></span>
+                                </li>
+                                <li style="display:flex;gap:10px;align-items:flex-start;padding:8px 12px;background:rgba(249,115,22,0.06);border:1px solid rgba(249,115,22,0.18);border-radius:10px;">
+                                        <span style="color:#f97316;font-weight:900;font-size:13px;min-width:24px;padding-top:1px;">33</span>
+                                        <span style="font-size:12px;color:#e2e8f0;line-height:1.45;"><strong style="color:#fff;">Analisi Finanziaria AI</strong><br><span style="color:#94a3b8;">Analisi completa dell'andamento finanziario con Gemini.</span></span>
+                                </li>
+                                <li style="display:flex;gap:10px;align-items:flex-start;padding:8px 12px;background:rgba(249,115,22,0.06);border:1px solid rgba(249,115,22,0.18);border-radius:10px;">
+                                        <span style="color:#f97316;font-weight:900;font-size:13px;min-width:24px;padding-top:1px;">34</span>
+                                        <span style="font-size:12px;color:#e2e8f0;line-height:1.45;"><strong style="color:#fff;">Archivio Documenti Personali</strong><br><span style="color:#94a3b8;">Documenti sempre a portata di mano.</span></span>
+                                </li>
+                                <li style="display:flex;gap:10px;align-items:flex-start;padding:8px 12px;background:rgba(249,115,22,0.06);border:1px solid rgba(249,115,22,0.18);border-radius:10px;">
+                                        <span style="color:#f97316;font-weight:900;font-size:13px;min-width:24px;padding-top:1px;">35</span>
+                                        <span style="font-size:12px;color:#e2e8f0;line-height:1.45;"><strong style="color:#fff;">Tasti Shortcut Personali</strong><br><span style="color:#94a3b8;">Apri le funzioni rapide con una combinazione di tasti abbreviati.</span></span>
+                                </li>
+                                <li style="display:flex;gap:10px;align-items:flex-start;padding:8px 12px;background:rgba(249,115,22,0.06);border:1px solid rgba(249,115,22,0.18);border-radius:10px;">
+                                        <span style="color:#f97316;font-weight:900;font-size:13px;min-width:24px;padding-top:1px;">36</span>
+                                        <span style="font-size:12px;color:#e2e8f0;line-height:1.45;"><strong style="color:#fff;">Algoritmo FairShare</strong><br><span style="color:#94a3b8;">Ripartizione equa delle spese e dei rimborsi tra i partecipanti.</span></span>
+                                </li>
+                                <li style="display:flex;gap:10px;align-items:flex-start;padding:8px 12px;background:rgba(249,115,22,0.06);border:1px solid rgba(249,115,22,0.18);border-radius:10px;">
+                                        <span style="color:#f97316;font-weight:900;font-size:13px;min-width:24px;padding-top:1px;">37</span>
+                                        <span style="font-size:12px;color:#e2e8f0;line-height:1.45;"><strong style="color:#fff;">Conti FairShare</strong><br><span style="color:#94a3b8;">Ogni partecipante traccia le proprie spese personali ⚖️.</span></span>
+                                </li>
+                                <li style="display:flex;gap:10px;align-items:flex-start;padding:8px 12px;background:rgba(249,115,22,0.06);border:1px solid rgba(249,115,22,0.18);border-radius:10px;">
+                                        <span style="color:#f97316;font-weight:900;font-size:13px;min-width:24px;padding-top:1px;">38</span>
+                                        <span style="font-size:12px;color:#e2e8f0;line-height:1.45;"><strong style="color:#fff;">Mercati Finanziari</strong><br><span style="color:#94a3b8;">Monitoraggio in tempo reale degli indici e degli asset globali.</span></span>
+                                </li>
+                                <li style="display:flex;gap:10px;align-items:flex-start;padding:8px 12px;background:rgba(249,115,22,0.06);border:1px solid rgba(249,115,22,0.18);border-radius:10px;">
+                                        <span style="color:#f97316;font-weight:900;font-size:13px;min-width:24px;padding-top:1px;">39</span>
+                                        <span style="font-size:12px;color:#e2e8f0;line-height:1.45;"><strong style="color:#fff;">Aggiornamento Librerie Python</strong><br><span style="color:#94a3b8;">Manutenzione e update automatici delle dipendenze.</span></span>
+                                </li>
+                                <li style="display:flex;gap:10px;align-items:flex-start;padding:8px 12px;background:rgba(249,115,22,0.06);border:1px solid rgba(249,115,22,0.18);border-radius:10px;">
+                                        <span style="color:#f97316;font-weight:900;font-size:13px;min-width:24px;padding-top:1px;">40</span>
+                                        <span style="font-size:12px;color:#e2e8f0;line-height:1.45;"><strong style="color:#fff;">Analizzatore Semantico IA</strong><br><span style="color:#94a3b8;">Sistema avanzato di analisi, estrazione e correlazione dati per bollette, buste paga e contrattualistica..</span></span>
+                                </li>
+                        </ol>
+                </div>
+        </div>
+        <script>
+                function accToggleFunzioni() {
+                        const btn  = document.getElementById('btn-funzioni');
+                        const body = document.getElementById('body-funzioni');
+                        const chev = document.getElementById('chev-funzioni');
+                        const isOpen = body.style.maxHeight !== '0px' && body.style.maxHeight !== '';
+                        if (isOpen) {
+                                body.style.maxHeight = '0px';
+                                btn.classList.remove('open');
+                                chev.classList.remove('open');
+                        } else {
+                                body.style.maxHeight = body.scrollHeight + 'px';
+                                btn.classList.add('open');
+                                chev.classList.add('open');
+                        }
+                }
+        </script>
+        </section>
+
         <section class="mb-5">
             <style>
                 .priv-btn { width: 100%; background: #111827; border: 1px solid #1e293b; color: #e2e8f0; padding: 0; cursor: pointer; text-align: left; border-radius: 16px; overflow: hidden; transition: all 0.2s; }
@@ -376,7 +579,8 @@
                 }
             </script>
         </section>
-
+        <hr style="border:none;border-top:1px solid #4f46e5;margin:20px 0;">
+        
         <section class="mb-20">
           <style>
             .acc-btn { width:100%; background:#111827; border:1px solid #1e293b; color:#e2e8f0; padding:0; cursor:pointer; text-align:left; border-radius:16px; overflow:hidden; margin-bottom:12px; transition:border-color 0.2s; }
@@ -540,6 +744,7 @@
         { img: 'fairshare',    title: 'Fair Share',               desc: 'Dividi le spese condivise tra più persone in modo equo. Calcola chi deve quanto a chi e genera un riepilogo da inviare.' },
         { img: 'mfinanza',     title: 'Modulo Finanza',           desc: 'Monitora investimenti, portafoglio titoli e rendimenti nel tempo integrandoli con il flusso di cassa familiare.' },
         { img: 'pip',          title: 'Aggiornamento Automatico', desc: 'Verifica e installa gli aggiornamenti delle dipendenze Python direttamente dall\'interfaccia, senza toccare il terminale.' },
+        { img: 'bollette',     title: 'Analisi Documenti e Fatture', desc: 'L\'AI analizza e confronta più immagini o documenti PDF eseguendo un\'analisi dettagliata e un confronto preciso tra bollette, fatture e contratti.' },
     ];
 
     const BASE     = 'https://github.com/Renato-4132/Casa-Facile/raw/main/screenshots/';

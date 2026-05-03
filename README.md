@@ -4,6 +4,14 @@
 
 <img width="974" height="489" alt="logo" src="https://github.com/user-attachments/assets/cc6432e4-a670-4e7c-9631-c456046707bb" />
 
+## 🌍 ORBITA CASA [![Sito Web](https://img.shields.io/badge/SITO_UFFICIALE-VISITA-4f46e5?style=flat-square&logo=google-chrome&logoColor=white)](https://renato-4132.github.io/OrbitaCasa/)
+### Il centro di comando per la tua vita: spese, salute, investimenti, lavoro e molto altro.
+
+> ⚠️ **Migrazione in corso** — Questo progetto era conosciuto come **Casa Facile Pro**.
+> Stiamo migrando al nuovo nome **Orbita Casa** per riflettere la crescita del progetto
+> oltre la sola gestione domestica. La migrazione è graduale: potreste ancora trovare
+> riferimenti al vecchio nome in alcune sezioni. I dati esistenti sono compatibili al 100%.
+
 ---
 
 ![Windows](https://img.shields.io/badge/Windows-✔️-blue?style=flat-square&logo=windows&logoColor=white)
